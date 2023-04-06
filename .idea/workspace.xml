@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="497de9ec-6603-4d30-a9b7-e738b0ef22b7" name="Changes" comment="">
+    <list default="true" id="497de9ec-6603-4d30-a9b7-e738b0ef22b7" name="Changes" comment="백준 14620 문제 해결">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/완전탐색/꽃길_백준_14620.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/완전탐색/백준_14620.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +36,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/java/PS_for_CodingTest/src"
+    "last_opened_file_path": "D:/java/PS_for_CodingTest",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -50,8 +55,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680574148320</updated>
-      <workItem from="1680574149842" duration="5038000" />
+      <workItem from="1680574149842" duration="5953000" />
+      <workItem from="1680768137379" duration="12432000" />
     </task>
+    <task id="LOCAL-00001" summary="백준 14620 문제 해결">
+      <created>1680581923574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680581923574</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,5 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="백준 14620 문제 해결" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 14620 문제 해결" />
   </component>
 </project>

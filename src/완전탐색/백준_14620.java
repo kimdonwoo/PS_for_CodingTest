@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class 꽃길_백준_14620 {
+public class 백준_14620 {
 
     static int n;
     static int[][] map;
@@ -15,7 +15,7 @@ public class 꽃길_백준_14620 {
 
     private static int res = Integer.MAX_VALUE;
 
-    public static void main(String[] args) throws IOException {
+    public static void ps_14620(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
