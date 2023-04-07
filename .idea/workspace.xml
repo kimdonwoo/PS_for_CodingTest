@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="497de9ec-6603-4d30-a9b7-e738b0ef22b7" name="Changes" comment="백준 14620 문제 해결">
+    <list default="true" id="497de9ec-6603-4d30-a9b7-e738b0ef22b7" name="Changes" comment="2023/04/06 코테 공부">
+      <change afterPath="$PROJECT_DIR$/src/그리디/백준_11000.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/그리디/백준_2839.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/백준_1715.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/완전탐색/꽃길_백준_14620.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/완전탐색/백준_14620.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준_11000.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680574148320</updated>
       <workItem from="1680574149842" duration="5953000" />
-      <workItem from="1680768137379" duration="12432000" />
+      <workItem from="1680768137379" duration="25376000" />
     </task>
     <task id="LOCAL-00001" summary="백준 14620 문제 해결">
       <created>1680581923574</created>
@@ -65,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680581923574</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2023/04/06 코테 공부">
+      <created>1680792222445</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680792222445</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="백준 14620 문제 해결" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 14620 문제 해결" />
+    <MESSAGE value="2023/04/06 코테 공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023/04/06 코테 공부" />
   </component>
 </project>
