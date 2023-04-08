@@ -3,7 +3,7 @@ package 그리디;
 import java.util.Scanner;
 
 public class 백준_2839 {
-    public static void main(String args[]){
+    public static void ps_2839(String args[]){
 
         Scanner sc = new Scanner(System.in);
 
