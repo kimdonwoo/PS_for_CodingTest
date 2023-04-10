@@ -5,16 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-class Node{
-    int i;
-    int j;
-
-    Node(int i, int j){
-        this.i = i;
-        this.j = j;
-    }
-}
-
 public class 백준_11000 {
 
     public static void ps_11000(String args[]) throws IOException {
@@ -45,6 +35,16 @@ public class 백준_11000 {
 
         System.out.println(pq.size());
 
+    }
+
+    public static class Node{
+        int i;
+        int j;
+
+        Node(int i, int j){
+            this.i = i;
+            this.j = j;
+        }
     }
 }
 
