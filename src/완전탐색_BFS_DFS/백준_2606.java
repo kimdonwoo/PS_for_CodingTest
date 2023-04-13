@@ -33,7 +33,6 @@ public class 백준_2606{
 
             A[s].add(e); // 방향없을 때는 양쪽다 해줘야함 (중요!)
             A[e].add(s);
-
         }
 
         count = 0;
