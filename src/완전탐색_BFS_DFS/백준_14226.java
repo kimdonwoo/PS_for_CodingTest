@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 public class 백준_14226 {
 
-
      public static void main(String[] args) throws IOException {
             Scanner sc = new Scanner(System.in);
 
