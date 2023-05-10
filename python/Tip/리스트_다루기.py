@@ -28,6 +28,12 @@ my_list2 = ['o','n']
 my_list.extend(my_list2)
 print(my_list,my_list2)
 
+# 리스트에 특정 값이 있는지 체크
+
+if item in list: 
+    print('리스트에 값이 있습니다.')
+else:
+    print('리스트에 값이 없습니다.')
 
 
 '''
