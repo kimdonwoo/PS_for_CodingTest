@@ -34,7 +34,12 @@ if item in list:
     print('리스트에 값이 있습니다.')
 else:
     print('리스트에 값이 없습니다.')
+    
+# 리스트 출력할 때 원소하나씩 출력 
+print(*my_list)
 
+# 리스트에 튜플데이터로 입력받아서 넣기
+person=[tuple(map(int,input().split())) for _ in range(n)]
 
 '''
     insert() : 원하는 위치에 값 추가
