@@ -7,3 +7,13 @@
 
 - ord(A) == 65 : 문자 -> 정수
 - chr(65) == 'A' : 정수 -> 문자
+
+- python으로 dfs 문제 풀때 recursionlimit 설정 필수!
+    sys.setrecursionlimit(10000)
+
+- bfs로 완전 탐색을한 후, visted에 의미 있는 값을 저장
+    bfs : 어차피 q로 한 바퀴 쏵 돌아야하니깐
+        큐를 사용해서 우선순위를 가질 문제에 대해서는(즉 시간에 영향이 없는 것들)에 대해서
+        appendleft를 통해 왼쪽에 넣어야 함  
+        bfs에서는 도착하면 그게 최단 시간임
+        

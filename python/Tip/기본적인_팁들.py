@@ -43,6 +43,9 @@
             q.popleft()
             
             이런 식으로 구현 (BFS)
-    
+            deque에서 쓸수 있는 함수들
+                appendleft(),append(),popleft(),pop(),remove()
+                clear(),insert(),reverse(),count() 등등...
+
     ...
 """

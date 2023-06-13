@@ -51,3 +51,15 @@ person=[tuple(map(int,input().split())) for _ in range(n)]
     count() : 어떤 값이 몇 개 있을지
     index() : 어떤 값이 어디에 있는지
 '''
+
+# 출력하기
+
+arr = [1,2,3,4,5]
+
+print(arr) # [1, 2, 3, 4, 5]
+print(*arr) # [1, 2, 3, 4, 5]
+print(' '.join(map(str, arr))) # 1 2 3 4 5
+
+print(arr[::-1]) # [5, 4, 3, 2, 1]
+print(*arr[::-1]) # 5 4 3 2 1
+print(' '.join(map(str, arr[::-1]))) # 5 4 3 2 1
