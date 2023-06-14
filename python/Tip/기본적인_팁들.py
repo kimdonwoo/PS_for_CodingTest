@@ -47,5 +47,7 @@
                 appendleft(),append(),popleft(),pop(),remove()
                 clear(),insert(),reverse(),count() 등등...
 
-    ...
+    
+    
+    
 """
