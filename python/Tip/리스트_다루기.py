@@ -6,8 +6,8 @@ graph1= [[False]*4 for _ in range(3)]
 print(graph1)
 
 # dfs나 bfs 관련문제에서 graph list로 만들때
-graph2 = [list(map(int,input().split())) for _ in range(3)]
-print(graph)
+ground = [list(map(int,input().split())) for _ in range(3)]
+print(ground)
 
 # 숫자말고 .#...# 이런식으로 주어질때
 graph3 = [list(input()) for _ in range(3)]
