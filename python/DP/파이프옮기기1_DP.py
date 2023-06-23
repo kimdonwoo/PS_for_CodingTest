@@ -2,6 +2,7 @@ n = int(input())
 graph = [[] for _ in range(n)]
 
 # 0은 가로, 1은 세로, 2는 대각선
+# [[0] * n for _ in range(n)] 활용
 dp = [[[0] * n for _ in range(n)] for _ in range(3)]
 
 # 그래프 정보 입력
