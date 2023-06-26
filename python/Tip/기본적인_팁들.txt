@@ -31,6 +31,10 @@
             사용 예시 : dic = {number2[i] : i for i in range(len(number2))}
                 numbers['kk'] = 1002 이런식으로 추가도 가능
                 number.keys() 로 모든 키값을 리스트로 저장 가능 (number.values()도 가능)
+                
+                [초기화 방법]
+                # for i in range(1,31): check[i] = 0
+                check = {i: 0 for i in range(1, 31)}
     
     5. stack : 나중에 들어온 값이 먼저 나감
             list의 append(i)와 pop()으로 구현 가능
