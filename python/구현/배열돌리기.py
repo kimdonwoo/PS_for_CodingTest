@@ -19,6 +19,7 @@ def change(n,d,graph):
             prev_temp = graph[i][(n + 1) // 2]
             graph[i][(n + 1) // 2] = prev_list[i]
             prev_list[i] = prev_temp
+            
         for i in range(n + 1):  # 가운대열 -> 부대각선
             prev_temp = graph[i][n - i]
             graph[i][n - i] = prev_list[i]
