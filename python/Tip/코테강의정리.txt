@@ -1,0 +1,134 @@
+- 코테 문제는
+    1. 문제 이해하기
+    2. 접근 방법
+    3. 코드 설계
+    4. 코드 구현
+ 이 순서대로 문제 푼다!!!
+
+
+[접근 방법] <= 가장 어려워 하는 부분
+
+    1. 직관적으로 생각하기
+        - 보통 완전 탐색으로 시작
+        - 문제 상황을 단순화하여 생각
+        - 문제 상황을 극한화하여 생각
+
+    2. 자료구조와 알고리즘 활용
+        - 문제 이해로부터 파악한 내용을 토대로 어떤 자료구조 사용할지 결정
+        - 대놓고 특정 자료구조,알고리즘 묻는 문제 많음
+        - 자료구조에 따라 선택할 수 있는 알고리즘을 문제에 적용
+
+    3. 메모리 사용
+        - 시간 복잡도를 줄이기 위해 메모리를 사용하는 방법
+        - 대표적으로 해시 테이블 ()
+
+
+[Dynamic Array] <= python의 list가 이걸 기반으로 구현됨
+
+    - 선언 및 초기화 : O(n)
+    - 접근 및 삽입, 데이터 추가 : O(1)
+    - 리사이징 : O(n)
+    - 마지막 데이터 삭제 : O(1)
+    - 중간에 데이터 insert,delete : O(n)  <--한칸씩 뒤,앞로 밀어야 해서
+
+
+Sort의 시간복잡도 : O(nlogn)  <= 외워두기
+Two Pointer : 보통 정렬된 상황에서 쓰임
+
+
+[연결 리스트] - Linked list (DBH 문제)
+
+    - Node라는 구조체가 연결되는 형식으로 Node에 데이터 값, next node 주소값 저장 
+    - 노드(value,next)를 구현하는게 중요
+    
+    class Node :
+        def __init__(self,value=0,next=None):
+            self.value = value
+            self.next = next
+    
+    class LinkedList(object):
+        def __init__(self):
+            self.head = None
+        def append(self,value): <== 시간 복잡도 : O(n) , tail구현하면 O(1) 가능
+            new_node = Node(value)
+            if self.head is None:
+                self.head = new_node
+            # 맨 뒤의 node가 new_node를 가리켜야 한다
+            else:
+                current=self.head
+                while(current.next):
+                    current = current.next
+                current.next = new_node
+        def get(self,idx)  <== 시간 복잡도 : O(n)
+            current=self.head
+            for _ in range(idx):
+                current = current.next
+            return current.value
+        
+    class LinkedList(object):
+        def __init__(self):
+            self.head = None
+            self.tail = None 
+        def append(self,value): <== 시간 복잡도 : O(1)
+            new_node = Node(value)
+            if self.head is None:
+                self.head = new_node
+                self.tail = new_node
+            # 맨 뒤의 node가 new_node를 가리켜야 한다
+            else:
+                self.tail.next = new_node
+                self.tail = self.tail.next
+
+    [Linked list 코테 적용 방법]
+    - 선형 자료 구조 + 중간에 데이터 추가/삭제 용이
+    - Tree or Graph 활용
+
+[큐]
+    - Array list로 구현하면 큐의 장점이 없어짐 
+        -> pop(0) 사용시, 없애고 남은 데이터를 앞으로 다 옮겨주기 때문에 O(n)이 됨...  
+    - 시간 복잡도를 위해 Linked list로 구현 (이게 deque)
+        -> enqueue(), dequeue() 둘다 O(1)로 해결 가능!!    // append랑 popleft임!
+    - 선입 선출 (FIFO)
+    - dequeue() : front에서 꺼내기 , enqueue() : rear에 넣기
+    - from collections import deque
+
+[스택] 
+    - 그냥 Array list(Python의 리스트)로 사용하면 됨!
+    - 중요한건 후입선출(LIFO)을 코테에 적용하는 방식!!   // append랑 pop
+    - DFS(깊이 우선 탐색)에도 사용!!
+    - 사용 예시 문제 : 괄호 유효성 문제, 온도 측정 문제 
+        특정 조건이 만족할때만 반응을하는 문제들(pop)
+            
+        ex) 온도 측정 문제
+            스택 내부가 내림차순 유지?
+
+
+튜플로 리스트 다루기 연습해보자
+
+[Dictionary]
+    - 해시 테이블로 구현
+    - 효율적인 탐색을 위한 자료구조로 key-value쌍의 데이터
+    - 사용 방법
+        score = {
+            'math':97,
+            'eng':97,
+            'kor':89
+        }
+        score['sci] = 100
+        ***if 'sci' in score : # 이런식으로 조건문 가능 (이게 핵심!!!!!!!!)
+            key 값쓰고 in 쓰고 뒤에 dict 쓰기 -> O(1) 혁신!
+
+    - 메모리를 사용해서 시간복잡도를 줄이는 것!!
+    - for x in dict랑 if x in dict랑 다름!
+    - longestConsecutive 문제 5번 풀어라!
+    - num_dict = {x:True for x in num}
+
+
+
+
+
+
+
+
+
+
