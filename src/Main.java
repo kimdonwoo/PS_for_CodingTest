@@ -1,13 +1,22 @@
-public class Main {
+import java.util.*;
 
 
+public class Main{
+    public static void main(String args[]){
+
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+        String str = sc.next();
+        char[] chars = str.toCharArray();
+        int sum = 0;
+
+        for(char a : chars){
+            sum += (a-'0');
+        }
+
+        System.out.println(sum);
+
+
+    }
 }
-
-/*
-    [백준] 12851번: 숨바꼭질 2 (🥇 골드 5티어)
-    [백준] 13549번: 숨바꼭질 3 (🥇 골드 5티어)
-    숨바꼭질 4 (🥇 골드 4티어)
-    [백준] 14226번: 이모티콘 (🥇 골드 5티어)
-    [백준] 17086번: 아기 상어2 (🥇 골드 5티어)
-    달리기 (🏅 플래티넘 3티어)
- */

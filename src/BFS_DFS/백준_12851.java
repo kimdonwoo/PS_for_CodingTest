@@ -1,4 +1,4 @@
-package 완전탐색_BFS_DFS;
+package BFS_DFS;
 
 import java.util.LinkedList;
 import java.util.Queue;

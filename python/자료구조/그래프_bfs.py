@@ -15,7 +15,13 @@ def bfs(graph,start_v):
     return visited
 
 bfs(graph, 'A')    
-            
+
+
+
+'''
+요약하자면
+체크하고 방문하고 큐 넣기
+'''
 
 
 
