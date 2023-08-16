@@ -9,7 +9,6 @@ sum = 0
 i,j=0,0
 
 while True:
-
     if S <= sum :
         min_length = min(min_length,j-i)
         sum-=nums[i]

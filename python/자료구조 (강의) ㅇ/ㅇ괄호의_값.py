@@ -5,7 +5,6 @@ res = 0
 tmp = 1
 
 for i in range(len(arr)):
-    
     if arr[i] == "(" :
         stack.append(arr[i])
         tmp*=2

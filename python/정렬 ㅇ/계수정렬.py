@@ -10,4 +10,6 @@ for i in range(len(array)):
 for i in range(len(count)): # 리스트에 기록된 정렬 정보 확인
     for _ in range(count[i]):
         print(i, end=' ') 
+        
+
 

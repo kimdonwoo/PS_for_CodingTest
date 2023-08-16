@@ -1,11 +1,11 @@
+#완전 탐색 (DFS,BFS) 외우기
 from collections import deque
 
 # visited를 어떻게 정할건가?
-
 def canVisitAllRooms(rooms):
     visited = []
     
-    def dfs(v):        
+    def dfs(v):      
         visited.append(v)
         for next_v in rooms[v]:
             if next_v not in visited:

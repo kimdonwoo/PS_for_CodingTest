@@ -1,10 +1,11 @@
+# 완전탐색 BFS 외우기!!
 from collections import deque
 
 def numIslands(grid):
     number_of_islands = 0
     
-    m = len(grid)
-    n = len(grid[0])
+    m = len(grid) # 4
+    n = len(grid[0]) # 5
     visited = [[False]*n for _ in range(m)]
     
     def bfs(x,y):
@@ -25,8 +26,6 @@ def numIslands(grid):
                     if grid[next_x][next_y] == "1" and not visited[next_x][next_y]:
                         visited[next_x][next_y] = True
                         queue.append((next_x,next_y))
-                
-        
     
     for i in range(m):
         for j in range(n):
@@ -36,9 +35,6 @@ def numIslands(grid):
                 #dfs(i,j)
     
     return number_of_islands
-
-
-
 
 print(numIslands(grid=[
     ["1","1","0","0","0"],

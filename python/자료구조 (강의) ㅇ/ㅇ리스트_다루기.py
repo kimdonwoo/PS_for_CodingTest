@@ -2,33 +2,43 @@ import sys
 input = sys.stdin.readline
 
 # 전부다 0 이거나 false 인 graph 생성
+'''
+    [[False,False,False,False],
+     [False,False,False,False],
+     [False,False,False,False]]
+    
+    이렇게 되자나 그럼 graph1[0][0] ~ graph1[2][3]
+    즉, n*m 일때, graph[n][m]인 거!!
+
+    [[False]*m for _ in range(n)]
+'''
 graph1= [[False]*4 for _ in range(3)]
 print(graph1)
 
-# dfs나 bfs 관련문제에서 graph list로 만들때
+# dfs나 bfs 관련문제에서 1 2 3 4 이런식일때, graph list로 만들때
 ground = [list(map(int,input().split())) for _ in range(3)]
 print(ground)
 
 # 숫자말고 .#...# 이런식으로 주어질때
 graph3 = [list(input()) for _ in range(3)]
-print(graph2)
+print(graph3)
 
-# 리스트 크기
+# 리스트 크기 : len 
 my_list = ['do','nu']
 print(len(my_list))
 
-# 리스트 추가
+# 리스트 추가 : append
 my_list = ['do','nu']
 my_list.append('d')
 print(my_list)
 
-# 리스트 합치기
+# 리스트 합치기 : extend
 my_list = ['do','nu']
 my_list2 = ['o','n']
 my_list.extend(my_list2)
 print(my_list,my_list2)
 
-# 리스트에 특정 값이 있는지 체크
+# 리스트에 특정 값이 있는지 체크 if x in list (dict도 마찬가지임)
 
 if item in list: 
     print('리스트에 값이 있습니다.')
@@ -53,11 +63,10 @@ person=[tuple(map(int,input().split())) for _ in range(n)]
 '''
 
 # 출력하기
-
 arr = [1,2,3,4,5]
 
 print(arr) # [1, 2, 3, 4, 5]
-print(*arr) # [1, 2, 3, 4, 5]
+print(*arr) # 1 2 3 4 5
 print(' '.join(map(str, arr))) # 1 2 3 4 5
 
 print(arr[::-1]) # [5, 4, 3, 2, 1]

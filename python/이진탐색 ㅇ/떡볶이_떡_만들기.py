@@ -7,6 +7,7 @@ end=max(array)
 
 # 이진 탐색 수행 (반복적)
 result = 0
+
 while(start <= end):
     total = 0
     mid = (start+end)//2

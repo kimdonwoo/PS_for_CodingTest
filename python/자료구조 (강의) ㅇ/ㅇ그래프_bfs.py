@@ -1,6 +1,6 @@
-from collections import deque
+# 외워라 !!! #10번 반복 필수!
 
-# 외워라 !!!
+from collections import deque
 
 def bfs(graph,start_v):
     visited = [start_v]

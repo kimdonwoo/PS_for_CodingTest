@@ -1,5 +1,11 @@
+#10번 반복 필수!
+
 from collections import deque
 
+'''
+    
+
+'''
 
 def bfs(root):
     visited = []
@@ -7,8 +13,9 @@ def bfs(root):
         return 0;
     q = deque()
     q.append(root)
+    
     while q:
-        cur_node = q.popleft()
+        cur_node = q.popleft() # 방문하고 체크
         visited.append(cur_node.value)
         
         if cur_node.left:

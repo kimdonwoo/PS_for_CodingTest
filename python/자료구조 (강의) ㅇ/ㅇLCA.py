@@ -1,4 +1,4 @@
-# 후위 순회 논리임!!
+# 후위 순회 논리임!! (외우기!!)
 
 def LCA(root, p, q):
     if root == None:
@@ -6,6 +6,7 @@ def LCA(root, p, q):
     
     left = LCA(root.left,p,q)
     right = LCA(root.right,p,q)
+    
     if root == p or root == q :
         return root
     elif left and right :

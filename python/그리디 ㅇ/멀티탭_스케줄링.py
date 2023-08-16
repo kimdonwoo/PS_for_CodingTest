@@ -2,7 +2,6 @@ import sys
 input = sys.stdin.readline
 
 N, K = map(int,input().split())
-
 li = list(map(int,input().split()))
 
 multitap = [0]*N

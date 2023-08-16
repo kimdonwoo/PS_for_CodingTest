@@ -10,9 +10,6 @@ def maxDepth_postorder(root) :
     
     return max(left_depth,right_depth)+1
 
-
-
-
 def maxDepth(root):
     max_depth = 0
     if root is None:
