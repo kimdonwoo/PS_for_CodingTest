@@ -1,11 +1,11 @@
-# 노드 구현
+# 노드 implement
 class ListNode(object):
     def __init__(self, val=0, next=None, prev=None):
         self.val = val
         self.next = next
         self.prev = prev
 
-# 이중 연결 리스트 구현 + Head,Current 구현
+# 이중 연결 리스트 implement + Head,Current implement
 class BrowserHistory(object):
     def __init__(self,homepage):
         self.head = self.current=ListNode(val = homepage) # next,prev 둘다 none

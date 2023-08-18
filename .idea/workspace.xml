@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="497de9ec-6603-4d30-a9b7-e738b0ef22b7" name="Changes" comment="2023/07/25 코테 공부">
+      <change afterPath="$PROJECT_DIR$/src/implement/BOJ10828.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implement/BOJ12840.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implement/BOJ17413.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implement/BOJ18111.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implement/BOJ1966.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implement/BOJ4673.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Tip/기본적인_팁들.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/Tip/기본적인_팁들.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Tip/코테강의정리.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/Tip/코테강의정리.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/구현 ㅇ/구현문제.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/구현 ㅇ/구현문제.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/자료구조 (강의) ㅇ/ㅇDesignBrowserHistory.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/자료구조 (강의) ㅇ/ㅇDesignBrowserHistory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/자료구조 (강의) ㅇ/ㅇNetworkDelayTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/자료구조 (강의) ㅇ/ㅇNetworkDelayTime.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +56,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -81,6 +92,8 @@
       <workItem from="1690626534056" duration="5513000" />
       <workItem from="1690977198461" duration="1633000" />
       <workItem from="1691037779893" duration="291000" />
+      <workItem from="1692338913967" duration="576000" />
+      <workItem from="1692339579166" duration="10298000" />
     </task>
     <task id="LOCAL-00001" summary="백준 14620 문제 해결">
       <created>1680581923574</created>

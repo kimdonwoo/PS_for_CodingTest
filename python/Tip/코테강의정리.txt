@@ -2,7 +2,7 @@
     1. 문제 이해하기
     2. 접근 방법
     3. 코드 설계
-    4. 코드 구현
+    4. 코드 implement
  이 순서대로 문제 푼다!!!
 
 
@@ -84,9 +84,9 @@ Two Pointer : 보통 정렬된 상황에서 쓰임
     - Tree or Graph 활용
 
 [큐] : 즉 파이썬에서는 deque 사용 !!!! + append, popleft
-    - Array list로 구현하면 큐의 장점이 없어짐 (리스트로 큐 구현 x)
+    - Array list로 구현하면 큐의 장점이 없어짐 (리스트로 큐 implement x)
         -> pop(0) 사용시, 없애고 남은 데이터를 앞으로 다 옮겨주기 때문에 O(n)이 됨...  
-    - 시간 복잡도를 위해 Linked list로 구현 (이게 deque)
+    - 시간 복잡도를 위해 Linked list로 implement (이게 deque)
         -> enqueue(), dequeue() 둘다 O(1)로 해결 가능!!    // append랑 popleft임!
     - 선입 선출 (FIFO)
     - dequeue() : front에서 꺼내기 , enqueue() : rear에 넣기
@@ -105,7 +105,7 @@ Two Pointer : 보통 정렬된 상황에서 쓰임
 튜플로 리스트 다루기 연습해보자
 
 [딕셔너리]
-    - 해시 테이블로 구현
+    - 해시 테이블로 implement
     - 효율적인 탐색을 위한 자료구조로 key-value 쌍의 데이터
     - 사용 방법
         score = {
@@ -164,7 +164,7 @@ Two Pointer : 보통 정렬된 상황에서 쓰임
                 - 전위 순회 / 중위 순회 / 후위 순회
 
     - 코테 적용!! (트리문제면 바로 떠올려라!)
-        1. Tree 구현
+        1. Tree implement
         2. **트리 순회  -> LCA 문제 외우기!!
             level order랑 post order가 제일 자주 나옴!
             post order(후위)는 DFS랑 비슷
@@ -244,7 +244,7 @@ Two Pointer : 보통 정렬된 상황에서 쓰임
 
     - 탑다운 vs 바텀업
         1. 탑다운
-            - 재귀 사용 => 구현 시간 빠름 , 실행속도 느림 (오버헤드 문제)
+            - 재귀 사용 => implement 시간 빠름 , 실행속도 느림 (오버헤드 문제)
             - 재귀 풀이에서 중복되는 계산값을 저장하여 동일한 함수 호출시에 재활용
             - hashtable 또는 list로 계산결과 저장
 
@@ -267,7 +267,7 @@ Two Pointer : 보통 정렬된 상황에서 쓰임
     - max heap : 반대
     - 형제 노드 간에는 대소 관계 정해지지 x
     - Root 노드가 가장 큰(or 작은) 값을 갖는다
-    - Heap.py에서 구현
+    - Heap.py에서 implement
 
 [다익스트라] - 외우기!
     - 가중치가 없다면?? -> BFS

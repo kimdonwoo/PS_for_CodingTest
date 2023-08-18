@@ -2,10 +2,10 @@
 하루에 쉬움 2 보통 1 꾸준히하고 자주 나오는 로직은 외우자
 
 1. solved.ac에 
-    - #implementation *g (*s) 검색하면 구현 골드/실버 문제 나옴
+    - #implementation *g (*s) 검색하면 implement 골드/실버 문제 나옴
 
 2. 백준에 삼성 SW 역량 테스트 기출 문제
-    - 까다로운 구현 문제 많음
+    - 까다로운 implement 문제 많음
 
 3. https://github.com/tony9402/baekjoon/tree/main/implementation 여기서 찾아서 풀기
 

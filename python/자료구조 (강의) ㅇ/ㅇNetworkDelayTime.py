@@ -6,7 +6,7 @@ n = 4
 k = 2
 
 def networkDelayTime(times, n, k):
-    # 1. 그래프 구현 O(times.length)
+    # 1. 그래프 implement O(times.length)
     graph = {}
     for time in times:
         graph[time[0]].append((time[2],time[1]))
