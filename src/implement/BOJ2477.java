@@ -40,6 +40,13 @@ public class BOJ2477 {
         //각 인덱스의 +3을 하면 안에 있는 사각형의 길이를 가지고 있는 인덱스임
         int minSquare = leng[(wMaxIdx + 3) % 6] * leng[(hMaxIdx + 3) % 6];
 
+        /*
+            아이디어 배우기
+            배열을 순환하는 배열로 생각하기 !!! => % (배열의 길이)
+
+
+         */
+
         System.out.println((maxSquare-minSquare)*val);
 
     }
