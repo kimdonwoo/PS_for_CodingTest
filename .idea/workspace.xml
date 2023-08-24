@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="497de9ec-6603-4d30-a9b7-e738b0ef22b7" name="Changes" comment="2023/08/22 코테 공부">
-      <change afterPath="$PROJECT_DIR$/src/implement/BOJ14503.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implement/BOJ14891.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implement/BOJ1713.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implement/BOJ2615.java" afterDir="false" />
+    <list default="true" id="497de9ec-6603-4d30-a9b7-e738b0ef22b7" name="Changes" comment="2023/08/23 코테 공부">
+      <change afterPath="$PROJECT_DIR$/src/implement/BOJ13335.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implement/BOJ16926.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implement/BOJ5430.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -20,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -36,23 +36,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/indy_test/final_project/Tayo-BE/Tayo-Backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/indy_test/final_project/Tayo-BE/Tayo-Backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java\PS_for_CodingTest\src" />
@@ -91,7 +91,8 @@
       <workItem from="1692453150142" duration="16044000" />
       <workItem from="1692594182819" duration="10118000" />
       <workItem from="1692627618194" duration="655000" />
-      <workItem from="1692688732504" duration="44894000" />
+      <workItem from="1692688732504" duration="45147000" />
+      <workItem from="1692855658119" duration="15433000" />
     </task>
     <task id="LOCAL-00001" summary="백준 14620 문제 해결">
       <created>1680581923574</created>
@@ -219,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692713743934</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="2023/08/23 코테 공부">
+      <created>1692798508138</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1692798508138</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +263,8 @@
     <MESSAGE value="2023/08/20 코테 공부" />
     <MESSAGE value="2023/08/21 코테 공부" />
     <MESSAGE value="2023/08/22 코테 공부" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023/08/22 코테 공부" />
+    <MESSAGE value="2023/08/23 코테 공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023/08/23 코테 공부" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
