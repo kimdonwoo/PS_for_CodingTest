@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="497de9ec-6603-4d30-a9b7-e738b0ef22b7" name="Changes" comment="2023/08/24 코테 공부">
-      <change afterPath="$PROJECT_DIR$/src/implement/BOJ15686.java" afterDir="false" />
+    <list default="true" id="497de9ec-6603-4d30-a9b7-e738b0ef22b7" name="Changes" comment="2023/08/27 코테 공부">
+      <change afterPath="$PROJECT_DIR$/src/implement/BOJ15685.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implement/BOJ15685_copy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implement/BOJ2589.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implement/BOJ15686.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implement/BOJ15686_.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +93,8 @@
       <workItem from="1692627618194" duration="655000" />
       <workItem from="1692688732504" duration="45147000" />
       <workItem from="1692855658119" duration="16200000" />
-      <workItem from="1693140369570" duration="5687000" />
+      <workItem from="1693140369570" duration="7067000" />
+      <workItem from="1693634864575" duration="7076000" />
     </task>
     <task id="LOCAL-00001" summary="백준 14620 문제 해결">
       <created>1680581923574</created>
@@ -232,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692876525951</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="2023/08/27 코테 공부">
+      <created>1693147054926</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1693147054926</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +281,8 @@
     <MESSAGE value="2023/08/22 코테 공부" />
     <MESSAGE value="2023/08/23 코테 공부" />
     <MESSAGE value="2023/08/24 코테 공부" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023/08/24 코테 공부" />
+    <MESSAGE value="2023/08/27 코테 공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023/08/27 코테 공부" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

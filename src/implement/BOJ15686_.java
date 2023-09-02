@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class BOJ15686 {
+public class BOJ15686_ {
     static int n, m;
     static int[][] map;
     static ArrayList<int[]> house = new ArrayList<>();
@@ -47,10 +47,12 @@ public class BOJ15686 {
     }
 
     static void back(int depth, int start) {
-        // m 개 선택했을 때
+        // 치킨 집 m 개 선택했을 때
         if (depth == m) {
             int sum = 0;
-            // 선택한
+            // 선택한 집에서 모든 선택된 치킨집과의 거리중 최소값을 구한다. -> 이게 min
+            // 모든 집 마다 돌면서 min 값들의 합을 구한다 -> sum
+            // sum 값중에 최소 값을 구한다 그 값이 답
             for (int[] h : house) {
                 int min = Integer.MAX_VALUE;
                 for (int[] c : choice) {
@@ -64,6 +66,12 @@ public class BOJ15686 {
         }
 
         // 치킨 집 선택
+        /*
+            특정 배열에서 조합 선택을 구현한 원리 -> DFS + 백트래킹
+            1. 특정 배열의 size만큼의 크기를 가진 visit 배열을 만든다.
+            2. for 문에서 특정 배열을 돌면서 방문안했으면 visit 배열 true로 바꾸고
+                선택하고 DFS(다음 단계)에 다시 들어간다.
+         */
         for (int i = start; i < chicken.size(); i++) {
             if (!visit[i]) {
                 visit[i] = true;
