@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="497de9ec-6603-4d30-a9b7-e738b0ef22b7" name="Changes" comment="2023/09/04 코테 공부">
-      <change afterPath="$PROJECT_DIR$/src/DP/BOJ12852.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/BOJ1890.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implement/BOJ15683_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implement/BOJ2573.java" afterDir="false" />
+    <list default="true" id="497de9ec-6603-4d30-a9b7-e738b0ef22b7" name="Changes" comment="2023/09/05 코테 공부">
+      <change afterPath="$PROJECT_DIR$/src/implement/BOJ16234_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +95,8 @@
       <workItem from="1693802295664" duration="7183000" />
       <workItem from="1693841049785" duration="230000" />
       <workItem from="1693871598408" duration="5587000" />
-      <workItem from="1693906738933" duration="6264000" />
+      <workItem from="1693906738933" duration="6416000" />
+      <workItem from="1693958964046" duration="5594000" />
     </task>
     <task id="LOCAL-00001" summary="백준 14620 문제 해결">
       <created>1680581923574</created>
@@ -261,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693841176379</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="2023/09/05 코테 공부">
+      <created>1693916489677</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1693916489677</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +307,8 @@
     <MESSAGE value="2023/08/27 코테 공부" />
     <MESSAGE value="2023/09/02 코테 공부" />
     <MESSAGE value="2023/09/04 코테 공부" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023/09/04 코테 공부" />
+    <MESSAGE value="2023/09/05 코테 공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023/09/05 코테 공부" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
