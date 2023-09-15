@@ -16,10 +16,13 @@
     5. indegree-- 해서 0된거 존재하면 큐 or 우선순위큐에 넣기
     6. 큐 or 우선순위큐 빌때까지 반복
 
+    ex) Topological/BOJ1766
+
 - Arrays.copyOf(arr,n);
     arr배열의 원소 n개 복사
 
-
+- int[][] map에서 값을 ____ 4비트로 동서남북 가능한 방향을 표시하는 아이디어
+    ex) etc/BOJ10655
 
 
 
