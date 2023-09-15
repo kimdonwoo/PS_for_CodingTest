@@ -24,8 +24,15 @@
 - int[][] map에서 값을 ____ 4비트로 동서남북 가능한 방향을 표시하는 아이디어
     ex) etc/BOJ10655
 
+- 유니온 파인드
+    find : x의 부모를 찾는 연산으로 x가 parent[x]랑 같은지 확인 후 같으면 본인을 return
+        다르면 parent[x]로 find연산을 다시 수행 (x==parent[x] 찾을 때 까지)
+        그리고 return 시에 parent[x] = find(parent[x]); 정리해주기
 
+    union : 먼저 find로 x와 y의 parent를 찾는다.
+        만약 parent가 다르다면 연결해주기
 
+    ex) etc/BOJ1976
 
 
 
