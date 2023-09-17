@@ -34,7 +34,15 @@
 
     ex) etc/BOJ1976
 
+- 다익스트라
+    - 그래프 최단 경로 구하는 알고리즘, 양의 가중치만
+    - O(mlogn)
+    1. 출발지를 pq에 넣고, check를 true로, dist는 0넣기
+    2. pq에서 꺼내서 now에 저장하고 방문 체크
+    3. 갈수 있는 정점중 현재 dist랑 now의 dist + now에서 next거리 비교
+    4. 변경되면 pq에 넣기
 
+    ex) graph/dijkstra_basic.java
 
 
 
