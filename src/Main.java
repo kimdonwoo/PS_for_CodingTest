@@ -3,28 +3,27 @@ import java.io.*;
 
 
 public class Main {
+    static int[] arr;
+    static ArrayList<Integer> check;
     public static void main(String args[]) throws IOException {
 
-        PriorityQueue<int[]> pq = new PriorityQueue<>((o1,o2) ->{
-            return o1[0]-o2[0];
-        });
-        //PriorityQueue<Integer> pq = new PriorityQueue<>();
 
-        pq.add(new int[]{1,4});
-        pq.add(new int[]{2,3});
-        pq.add(new int[]{3,2});
-        pq.add(new int[]{4,1});
+        check  = new ArrayList<>();
+        arr = new int[]{1, 2, 3, 4, 5};
+        DFS(0,3,-1);
 
-        while(!pq.isEmpty()){
-            int[] temp = pq.poll();
-            System.out.println(temp[0]+" : "+temp[1]+" ");
+    }
+    public static void DFS(int depth, int goal ,int idx){
+        if(depth == goal){
+            for( int i : check) System.out.print(i+" ");
+            System.out.println();
+            return;
         }
 
-
-
-
-
-
-        // Arrays.copyOf
+        for(int i = idx+1 ; i < arr.length ; i++){
+            check.add(arr[i]);
+            DFS(depth+1,goal,i);
+            check.remove(check.size()-1);
+        }
     }
 }
