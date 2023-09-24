@@ -1,11 +1,20 @@
 
 [코테 팁들 정리]
 
-- 이중 ArrayList 사용방법
-
+- ArrayList로 이차원 그래프 구현
+    (1) 2차원 ArrayList
     static ArrayList<ArrayList<int[]>> map = new ArrayList<>();
+
     for(int i = 0 ; i <= N ; i++){
         map.add(new ArrayList<>());
+    }
+
+    (2) ArrayList 배열 (이게 더 와닿긴하는듯)
+    static ArrayList<int[]>[] graph2;
+
+    graph2 = new ArrayList[n+1];
+    for(int i = 0 ; i < n+1 ; i++){
+        graph2[i] = new ArrayList<>();
     }
 
 - 위상정렬

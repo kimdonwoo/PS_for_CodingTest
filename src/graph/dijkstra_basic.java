@@ -98,7 +98,6 @@ public class dijkstra_basic {
             for(Node next : graph[nowVertex]) {
                 if(dist[next.index] > dist[nowVertex]+ next.cost) {
                     dist[next.index] = dist[nowVertex] + next.cost;
-
                     pq.offer(new Node(next.index, dist[next.index]));
                 }
             }
