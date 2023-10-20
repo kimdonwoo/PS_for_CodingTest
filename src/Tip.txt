@@ -3,19 +3,16 @@
 
 - ArrayList로 이차원 그래프 구현
     (1) 2차원 ArrayList
-    static ArrayList<ArrayList<int[]>> map = new ArrayList<>();
-
-    for(int i = 0 ; i <= N ; i++){
-        map.add(new ArrayList<>());
-    }
+        static ArrayList<ArrayList<int[]>> map = new ArrayList<>();
+        for(int i = 0 ; i <= N ; i++){
+            map.add(new ArrayList<>());
+        }
 
     (2) ArrayList 배열 (이게 더 와닿긴하는듯)
-    static ArrayList<int[]>[] graph2;
-
-    graph2 = new ArrayList[n+1];
-    for(int i = 0 ; i < n+1 ; i++){
-        graph2[i] = new ArrayList<>();
-    }
+        static ArrayList<int[]>[] graph2 = new ArrayList[n+1];
+        for(int i = 0 ; i < n+1 ; i++){
+            graph2[i] = new ArrayList<>();
+        }
 
 - 위상정렬
     1. 이중 ArrayList 사용해서 arr.get(본인).add(next);로 순서 정의
@@ -26,9 +23,6 @@
     6. 큐 or 우선순위큐 빌때까지 반복
 
     ex) Topological/BOJ1766
-
-- Arrays.copyOf(arr,n);
-    arr배열의 원소 n개 복사
 
 - int[][] map에서 값을 ____ 4비트로 동서남북 가능한 방향을 표시하는 아이디어
     ex) etc/BOJ10655

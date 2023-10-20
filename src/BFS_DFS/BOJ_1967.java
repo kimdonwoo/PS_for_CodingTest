@@ -41,6 +41,7 @@ public class BOJ_1967 {
         visited[1] = true;
         dfs(1,0);
 
+        System.out.println(max_idx);
 
         visited = new boolean[n+1];
         visited[max_idx] = true;

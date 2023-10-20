@@ -69,7 +69,7 @@ public class dijkstra_prac {
 
     public static void Dijkstra(int start) {
 
-        // 최소 거리 체크한 노드 저장
+        // 최소 거리 체크한 노드 저장 (그냥 visit임)
         boolean[] check = new boolean[n+1];
         // start로부터 해당노드까지의 최소 거리 저장
         int[] dist = new int[n+1];
