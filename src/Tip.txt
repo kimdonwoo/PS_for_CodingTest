@@ -147,3 +147,21 @@
 
 - 2차원 배열 움직임 연습하기
     ex) samsung/BOJ_17144
+
+- BufferedWriter도 익숙해지자
+    BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+    bw.write(meteorCal() + "");
+    bw.flush();
+    bw.close();
+    br.close();
+    마지막 close도 잊지말기!
+
+- ArrayList<meteor>에 정보들 모두 저장
+    배열 한바퀴 돌면서 파이어볼 이동시키고 결과 ArrayList<meteor>[][] map;에 저장
+    map[][] 돌면서 하나의 칸에 2개 이상있으면 분열 계산하고
+
+    ArrayList<meteor>[][] map에 대해 이미지 머리에 그리기
+        -> 각 map[][]이라는 2차원 배열에 meteor를 담는 ArrayList 주소가 담기는거!
+
+- 2차원 배열 문제에서 행과 열에 따로따로 적용해야하는 문제에 대해서
+    행에 대해서만 함수를 만들고 배열 상태를 행과 열을 뒤집어 해당 함수로 한번 더 적용하는 아이디어
