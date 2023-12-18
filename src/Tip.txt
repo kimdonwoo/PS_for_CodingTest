@@ -168,3 +168,52 @@
 
 - 자유자재로 DFS로 조합/백트래킹 구현하고 BFS도 할줄 알도록 익숙해지는게 중요 !!
     -> 문제푸는것보다 중요
+
+- for(int j = temp.size()-1 ; j >= 0  ; j--){}
+    ArrayList 뒤에서 부터 돌기
+
+- 자료구조에 따라 연산의 시간 복잡도랑 자료구조 이미지 머리에 그리기!!!
+    - ArrayList : 일반 배열 - add 어떻게 되는거지?
+        - get(idx) : O(1)
+        - add() : O(1) // 흠..
+        - remove()/insert()/contains : O(n)
+    - LinkedList : Linked 배열
+        - get(idx) : O(n)
+        - add()/insert() : O(1) amortized // 흠..
+        - remove() - 접근하는데 시간걸림 / contains : O(n)
+    - HashSet : 순서 x , null 가능
+        - add() : O(1)
+        - contains() : O(1)
+    - LinkedHashSet : 순서 o , null 가능
+        - add() : O(1)
+        - contains() : O(1)
+    - HashMap : key-value, 순서 x, null 가능
+        - get() : O(1)
+        - containsKey() : O(1)
+    - LinkedHashMap : key-value, 순서 o, null 가능
+        - get() : O(1)
+        - containsKey() : O(1)
+    - PriorityQueue
+        - offer() : O(logN)
+        - peek() : O(1)
+        - poll() : O(logN)
+        - size() : O(1)
+     - Queue = LinkedList
+        - offer()/Enqueue : O(1)
+        - peek() : O(1)
+        - poll()/Dequeue : O(1)
+        - size() : O(1)
+        - search : O(n)
+     - Stack
+        - push : O(1)
+        - pop : O(1)
+        - peek(idx) : O(n)
+     - Deque = LinkedList
+        - 앞추가 : addFirst() / 뒷추가 : addLast()
+        - 앞삭제 : remove()-poll() / 뒷삭제 : remove-pollLast()
+        - 앞조회 : peek() / 뒷조회 : peekLast()
+
+- 반복문으로 특정 자료구조 순회하고 있을 때,
+    해당 자료구조에 삽입/삭제를 하게 되면 순서 꼬일 수 있다 !! 조심!!
+
+- map[][] 그래프 감각을 더 키워야할듯!
