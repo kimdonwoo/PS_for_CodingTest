@@ -52,12 +52,12 @@ public class BOJ_17779 {
         // 경계선 세팅
         for (int i = 0; i <= d1; i++) {
             border[x + i][y - i] = true;
-            border[x + d2 + i][y + d2 - i] = true;
+            border[(x + d2) + i][(y + d2) - i] = true;
         }
 
         for (int i = 0; i <= d2; i++) {
             border[x + i][y + i] = true;
-            border[x + d1 + i][y - d1 + i] = true;
+            border[(x + d1) + i][(y - d1) + i] = true;
         }
 
         int[] peopleSum = new int[5];
