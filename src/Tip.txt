@@ -277,3 +277,36 @@
         //      -> 값넣고 visit 체크하고 다음 backtracking() 들어가기
         //      -> 나오고 나서 값들이랑 visit 원래대로 돌리기
     }
+
+- 방향에 따라 다르게 그 방향에 맞게 적용하는 문제는 모든 경우를 하나의 방향으로 적용하여
+    - 값만 바꾸어 그 방향으로 적용하면 풀리는 경우가 많다!!!!
+
+- 2차원 배열에서 아래쪽으로 shift할때
+    - 마지막에 new boolean해줘야한다. 안하면 map[0]이랑 map[1]의 주소가 같아진다.
+    예시) for(int i = 5 ; i > 0 ; j--){
+             map[i] = map[i-1];
+         }
+         map[0] = new boolean[4];
+
+- 2차원 배열 boolean[][] map = new boolean[5][5]에서
+    - 만약 boolean[1]이 모두 true or false 일때 조건 발생
+        : boolean flag = false하고 for(i)문 돌면서 if(!map[i][j]) flag = true;
+           다 돌았을때, flag가 그대로 false이면 조건 발생
+    - 만약 boolean[1]이 하나라도 true일때 조건 발생
+        : for(i)문돌리고 if(boolean[1][i]){조건}, 조건 끝나면 상황에 따라 break or continue;
+    - 만약 boolean[1]이 하나라도 false일때 조건 발생
+        : for(i)문돌리고 if(!boolean[1][i]){조건}, 조건 끝나면 상황에 따라 break or continue;
+
+- 구현문제에서 int[][] map에 원소들 넣고 HashMap<Integer,int[]> hm에 i,j,d를 추가하는 식으로 구현할 경우
+    - 항상 map과 hm은 세트라는 걸 잊지말자 !!
+    - 즉, map이 바뀌는 상황에서는 항상 hm에도 반영이 되어야하고 그 반대도 마찬가지!
+    - 백트래킹을 사용했을 때도, 매개변수로 map을 넣어야한다면 hm도 매개변수로 사용함을 잊지말자
+
+- map을 사용하는 문제에서 백트래킹으로 구현하는 경우
+    - 각 상황(백트래킹 깊이)마다 map의 변경이 많아서 다시 이전 map으로 되돌릴 수 없는 상황이라면
+    - static map으로 하지말고 새로운 newMap을 할당받아 clone을 한뒤 매개변수로 넣어줘라 !!
+    - 메모리는 많이 들지만(조심), 구현상으로는 훨씬 편할 수 있음 !!
+    - 매개 변수 넣을때, map이랑 세트인 저장소가 있다면, 걔들도 같이 매개변수가 되어야 함
+        : 그렇지 않으면 각 backtracking들이 서로 영향을 준다!
+
+
