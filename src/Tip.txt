@@ -309,4 +309,15 @@
     - 매개 변수 넣을때, map이랑 세트인 저장소가 있다면, 걔들도 같이 매개변수가 되어야 함
         : 그렇지 않으면 각 backtracking들이 서로 영향을 준다!
 
+- ArrayList<int[]>[][] map : int[] 주소를 ArrayList로 저장하는 자료구조의 주소를 2차원 배열로 저장하는 map
+    - space라는 class로 space[][] map = new space[N][N];를 하면 현재 이것은 space의 주소를 저장할 2차원 공간만 확보한 것!
+    - space 자료구조를 생성한것이 아님!!
+    - 따라서 for-i,j 돌면서 map[i][j] = new space();로 할당을 해주어야 한다.
+
+- 그냥 x,y와 같은 위치만을 나타내는 간단한 객체들은 int[]로 구현하지만, 복잡해지고 타입을 많이 가져야하는 경우는 class를 정의하자
+
+- ArrayList<Integer> temp에서 for(int t : temp)를 돌리면 t는 그냥 값만 복사한 것
+    - 이때 temp.remove 하면 에러뜸 (ArrayList<int[]> 도 마찬가지)
+    - 또한 t 값을 바꾸면 temp에 반영이 안되기때문에 반영하고 싶으면 temp.set을 써라
+
 
