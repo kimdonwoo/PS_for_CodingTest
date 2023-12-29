@@ -320,4 +320,23 @@
     - 이때 temp.remove 하면 에러뜸 (ArrayList<int[]> 도 마찬가지)
     - 또한 t 값을 바꾸면 temp에 반영이 안되기때문에 반영하고 싶으면 temp.set을 써라
 
+- 행(i)이 가장 큰 것을, 그것도 여러개면 열(j)이 가장 큰 것
+    - 우선 순위가 i 부터, 근데 i가 같으면 j로
+        ex) if(o2.basic.i == o1.basic.i){
+                return o2.basic.j - o1.basic.j;
+            }else{
+                return o2.basic.i - o1.basic.i;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
 
