@@ -1,24 +1,30 @@
 package prac_zone;
 
+import 그리디.temp;
+
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.PriorityQueue;
 
 public class Free {
-    static int[][] map = new int[5][5];
     public static void main(String[] args) throws Exception {
 
+        PriorityQueue<int[]> pq = new PriorityQueue<>((o1, o2) ->{
+            return o2[2] - o1[2];
+        });
 
-        ArrayList<int[]> temp = new ArrayList<>();
-        temp.add(new int[]{1,1});
-        temp.add(new int[]{2,2});
-        temp.add(new int[]{3,3});
-        temp.add(new int[]{4,4});
-        temp.add(new int[]{5,5});
+        pq.add(new int[] {1,5,3});
+        pq.add(new int[] {2,4,2});
+        pq.add(new int[] {3,3,1});
+        pq.add(new int[] {4,2,4});
+        pq.add(new int[] {5,1,5});
 
 
-
-        for(int i = 0 ; i < temp.size() ; i++){
-            temp.remove(0);
+        while(!pq.isEmpty()){
+            int[] now = pq.poll();
+            System.out.println(now[0]+ " " +now[1] + " " +now[2]);
         }
+
 
 
 

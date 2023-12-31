@@ -124,7 +124,7 @@
 
         // DFS 들어가기
         for(int i = idx ; i < chickens.size() ; i++){
-            picks.add(i);
+            picks.add(i); // -> int[] M개 배열에 담는게 더 속도 빠를듯
             chickenDFS(i+1,count+1);
             picks.remove(picks.size()-1);
         }
@@ -139,7 +139,7 @@
     자료구조 고민보단 빠르게 뭘 사용할지 결정하고
     코드 짜는게 나을듯?
 
-- 예를들어 N개의 보기중 조합 방식으로 M개 선택하고 DFS 돌리는 문제일때
+- 예를들어 N개의 보기 중 조합 방식으로 M개 선택하고 DFS 돌리는 문제일때
     N개의 보기중에 M개를 선택하는 DFS를 하나 만들고
     그 안에서 count == M 을 만족했을 때, 또 DFS를 하나 더 돌려서 해결하자
 
@@ -170,12 +170,12 @@
     -> 문제푸는것보다 중요
 
 - for(int j = temp.size()-1 ; j >= 0  ; j--){}
-    ArrayList 뒤에서 부터 돌기
+    ArrayList temp 뒤에서 부터 돌기
 
 - 자료구조에 따라 연산의 시간 복잡도랑 자료구조 이미지 머리에 그리기!!!
     - ArrayList : 일반 배열 - add 어떻게 되는거지?
         - get(idx) : O(1)
-        - add() : O(1) // 흠..
+        - add() : O(1)
         - remove()/insert()/contains : O(n)
     - LinkedList : Linked 배열
         - get(idx) : O(n)
@@ -260,7 +260,7 @@
     - map[][]을 넣으면 깊은 복사 적용되어서 값만 복사됨
     - 하지만 map[]을 넣으면 해당 배열 주소가 얕은 복사가 되어서 메소드에서 값 바뀌면 그것이 map[][]에 반영이 됨.
 
-- 배열 clone하면 얕은 복사됨 !
+- 배열 clone , Arrays.copyOfv하면 깊은 복사 즉, 값들만 복사됨
 
 - 배열 n번 shift 하는 방법
     1. 2차원 for문으로 직접 다 밀기
@@ -328,7 +328,8 @@
                 return o2.basic.i - o1.basic.i;
             }
 
-
+- 완전 탐색에서 모든 조합 상황에 대해 특정 갑의 최솟값을 찾는 문제에서 최솟값을 가지는 조합상황이 여러 개 일때
+    - 해당 상황을 모두 ArrayList에 넣고 마지막에 정렬해서 출력하는게 속도 더 빠름
 
 
 
