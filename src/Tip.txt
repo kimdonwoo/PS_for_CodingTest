@@ -331,8 +331,18 @@
 - 완전 탐색에서 모든 조합 상황에 대해 특정 갑의 최솟값을 찾는 문제에서 최솟값을 가지는 조합상황이 여러 개 일때
     - 해당 상황을 모두 ArrayList에 넣고 마지막에 정렬해서 출력하는게 속도 더 빠름
 
+- 문자열 합칠때는 String 사용하지말고 StringBuilder 적극 활용해라 !
+    - String은 불면이기 때문에 A 문자열과 B 문자열을 합칠 때, C배열을 새로 선언한다음 A와 B를 복사하는 방식임
+    - StringBuilder는 불변이 아니고, 미리 일정한 크기의 배열을 잡아두고 거기에 붙여나가는 방식
 
-
+- StringBuilder 시간 복잡도
+    - append(String str) : str 길이가 n일때 O(n)
+    - insert(int offset, String str) : O(n + m)
+    - delete : O(n)
+    - deleteCharAt : O(n)
+    - replace(int start, int end, String str) : O(n + m) - 현재 버퍼 : n , 대입할려는 문자열 : m
+    - reverse() : 현재 버퍼의 길이가 n이면 O(n)
+    - indexOf(String str) : O(n)
 
 
 
