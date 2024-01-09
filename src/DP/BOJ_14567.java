@@ -46,3 +46,12 @@ public class BOJ_14567 {
         System.out.println(sb.toString());
     }
 }
+
+/*
+    A < B 라는 조건 때문에
+    작은 값부터 위상정렬 처럼 처리하면
+    문제 x
+
+
+
+ */
