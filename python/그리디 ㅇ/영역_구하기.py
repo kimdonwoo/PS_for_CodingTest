@@ -4,7 +4,7 @@ input = sys.stdin.readline
 
 def dfs(i,j):
     global count
-    graph[i][j] = 1
+    shortest_distance[i][j] = 1
     count+=1
     
     for d in range(4):
@@ -13,7 +13,7 @@ def dfs(i,j):
 
         if nx < 0 or ny < 0 or nx >= M or ny >= N :
             continue
-        if graph[nx][ny] != 0:
+        if shortest_distance[nx][ny] != 0:
             continue
         dfs(nx,ny)
 
@@ -25,18 +25,18 @@ res =[]
 
 square = [list(map(int,input().split())) for _ in range(K)]
 
-graph = [[0]*N for _ in range(M)]
+shortest_distance = [[0]*N for _ in range(M)]
 
 
 for i in square:
     for j in range(i[0] , i[2]):
         for k in range(i[1] , i[3]):
-            graph[k][j] = 1
+            shortest_distance[k][j] = 1
     
 for i in range(M):
     for j in range(N):
         count = 0
-        if graph[i][j] == 0 :
+        if shortest_distance[i][j] == 0 :
             dfs(i,j)
         if count != 0 :
             res.append(count)

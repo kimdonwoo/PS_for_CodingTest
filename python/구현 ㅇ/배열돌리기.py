@@ -1,7 +1,7 @@
 import sys
 input= sys.stdin.readline
 
-def change(n,d,graph):
+def change(n,d,shortest_distance):
     # arr을 d만큼 돌린다!
 
     if d < 0 :
@@ -13,25 +13,25 @@ def change(n,d,graph):
         prev_list = list()
 
         for i in range(n + 1):  # 주대각선
-            prev_list.append(graph[i][i])
+            prev_list.append(shortest_distance[i][i])
 
         for i in range(n + 1):  # 주대각선 -> 가운데열
-            prev_temp = graph[i][(n + 1) // 2]
-            graph[i][(n + 1) // 2] = prev_list[i]
+            prev_temp = shortest_distance[i][(n + 1) // 2]
+            shortest_distance[i][(n + 1) // 2] = prev_list[i]
             prev_list[i] = prev_temp
             
         for i in range(n + 1):  # 가운대열 -> 부대각선
-            prev_temp = graph[i][n - i]
-            graph[i][n - i] = prev_list[i]
+            prev_temp = shortest_distance[i][n - i]
+            shortest_distance[i][n - i] = prev_list[i]
             prev_list[i] = prev_temp
 
         for i in range(n + 1):  # 부대각선 -> 가운데행
-            prev_temp = graph[(n + 1) // 2][n - i]
-            graph[(n + 1) // 2][n - i] = prev_list[i]
+            prev_temp = shortest_distance[(n + 1) // 2][n - i]
+            shortest_distance[(n + 1) // 2][n - i] = prev_list[i]
             prev_list[i] = prev_temp
 
         for i in range(n + 1):  # 가운데행 -> 주대각선
-            graph[n - i][n - i] = prev_list[i]    
+            shortest_distance[n - i][n - i] = prev_list[i]
     
 
 

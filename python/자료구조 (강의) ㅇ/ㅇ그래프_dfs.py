@@ -1,7 +1,7 @@
 #10번 반복 필수!
 
 # 1. 그래프 구현하기
-graph = {
+shortest_distance = {
     'A' : ['B','D','E'],
     'B' : ['A','C','D'],
     'C' : ['B'],
@@ -14,21 +14,21 @@ visited = []
 # 2. dfs 구현하기
 def dfs(cur_v):
     visited.append(cur_v)
-    for v in graph[cur_v]:
+    for v in shortest_distance[cur_v]:
         if v not in visited:
             dfs(v)
 
 dfs('A')
 print(visited)
 
-# def dfs(graph, cur_v, visited = []):
+# def dfs(shortest_distance, cur_v, visited = []):
 #     visited.append(cur_v)
-#     for v in graph[cur_v] :
+#     for v in shortest_distance[cur_v] :
 #         if v not in visited:
-#             visited = dfs(graph,v,visited)
+#             visited = dfs(shortest_distance,v,visited)
 #     return visited
 
-# dfs(graph,'A')
+# dfs(shortest_distance,'A')
 
 
 

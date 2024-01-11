@@ -1,4 +1,4 @@
-package graph;
+package shortest_distance;
 
 /*
 5

@@ -7,9 +7,9 @@ k = 2
 
 def networkDelayTime(times, n, k):
     # 1. 그래프 implement O(times.length)
-    graph = {}
+    shortest_distance = {}
     for time in times:
-        graph[time[0]].append((time[2],time[1]))
+        shortest_distance[time[0]].append((time[2],time[1]))
     
     # 2. 다익스트라 알고리즘 O(ElogE)
     costs = {} # 현재 노드들의 최단거리 값
@@ -20,7 +20,7 @@ def networkDelayTime(times, n, k):
         cur_cost, cur_node = heapq.heappop(pq) # 2. 우선순위가 가장 높은 노드 추출
         if cur_node not in costs: # 3. 방문 여부 확인
             costs[cur_node] = cur_cost # 4. 비용 업데이트
-            for cost, next_node in graph[cur_node]: # 5. 현재 노드와 연결된 노드 우선순위 큐에 추가
+            for cost, next_node in shortest_distance[cur_node]: # 5. 현재 노드와 연결된 노드 우선순위 큐에 추가
                 next_cost = cur_cost+cost
                 heapq.heappush(pq, (next_cost, next_node))
 

@@ -12,23 +12,23 @@ def bfs(x,y):
             if nx < 0 or ny < 0 or nx >= n or ny >= m :
                 continue
             # 벽인 경우
-            if graph[nx][ny] == 0:
+            if shortest_distance[nx][ny] == 0:
                 continue
             # 해당 노드를 처음 방문하는 경우 최단 거리 기록
-            if graph[nx][ny] == 1:
-                graph[nx][ny] = graph[x][y] +1
+            if shortest_distance[nx][ny] == 1:
+                shortest_distance[nx][ny] = shortest_distance[x][y] +1
                 q.append((nx,ny))
     
-    return graph[n-1][m-1]
+    return shortest_distance[n-1][m-1]
     
 
 from collections import deque
 
 n, m =map(int,input().split())
 
-graph = []
+shortest_distance = []
 for i in range(n) :
-    graph.append(list(map(int,input())))
+    shortest_distance.append(list(map(int,input())))
     
 dx = [-1,1,0,0]
 dy = [0,0,-1,1]

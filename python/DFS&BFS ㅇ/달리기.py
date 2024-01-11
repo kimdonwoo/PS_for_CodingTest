@@ -8,7 +8,7 @@ dx=[0,0,1,-1]
 dy=[1,-1,0,0]
 
 visited=[[-1]*m for _ in range(n)]
-graph=[list(input()) for _ in range(n)]
+shortest_distance=[list(input()) for _ in range(n)]
 
 start_x,start_y,end_x,end_y = [int(x)-1 for x in input().split()]
 
@@ -31,7 +31,7 @@ while q:
             # 범위 밖일 때
             if nx<0 or nx>=n or ny<0 or ny>=m: break
             # 벽일 때
-            if graph[nx][ny]=='#':break
+            if shortest_distance[nx][ny]=='#':break
             # 처음 방문하는 곳이면
             if visited[nx][ny] == -1:
                 q.append((nx,ny))

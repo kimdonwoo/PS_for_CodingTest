@@ -1,6 +1,6 @@
 from collections import deque
 
-def bfs(graph,start,visited):
+def bfs(shortest_distance,start,visited):
     # 큐 구현을 위해 deque 사용
     q = deque([start])
     visited[start] = True
@@ -11,12 +11,12 @@ def bfs(graph,start,visited):
         v = q.popleft()
         print(v, end=' ')
         # 아직 방문하지 않은 인접한 원소들을 큐에 삽입
-        for i in graph[v] :
+        for i in shortest_distance[v] :
             if not visited[i] :
                 q.append(i)
                 visited[i] = True
                 
-graph =[
+shortest_distance =[
     [],
     [2,3,8],
     [1,7],
@@ -30,4 +30,4 @@ graph =[
 
 visited = [False]*9
 
-bfs(graph,1,visited)
+bfs(shortest_distance,1,visited)

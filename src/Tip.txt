@@ -45,10 +45,10 @@
     3. 갈수 있는 정점중 현재 dist랑 now의 dist + now에서 next거리 비교
     4. 변경되면 pq에 넣기
 
-    ex) graph/dijkstra_basic.java
+    ex) shortest_distance/dijkstra_basic.java
 
-    + 플로이드 와샬 : graph/FloydWrasahll_basic , etc/BOJ10159
-        => graph[i][j] = Math.min(graph[i][j], graph[i][k]+graph[k][j]) 논리
+    + 플로이드 와샬 : shortest_distance/FloydWrasahll_basic , etc/BOJ10159
+        => shortest_distance[i][j] = Math.min(shortest_distance[i][j], shortest_distance[i][k]+shortest_distance[k][j]) 논리
 
 - 순열, 조합 연습
     - 순열 : etc/BOJ18429

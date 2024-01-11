@@ -4,9 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="497de9ec-6603-4d30-a9b7-e738b0ef22b7" name="Changes" comment="2023/09/05 코테 공부">
-      <change afterPath="$PROJECT_DIR$/src/implement/BOJ16234_.java" afterDir="false" />
+    <list default="true" id="497de9ec-6603-4d30-a9b7-e738b0ef22b7" name="Changes" comment="2024/01/10 코테 공부">
+      <change afterPath="$PROJECT_DIR$/src/DP/BOJ_2073.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/BOJ_2758.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HD/HD1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HD/HD2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HD/HD3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HD/HD4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HD/HD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HD/HD6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HD/HD7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shortest_distance/BOJ_13549.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/DFS&amp;BFS ㅇ/BFS_기본.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/DFS&amp;BFS ㅇ/BFS_기본.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/DFS&amp;BFS ㅇ/BFS_기초문제.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/DFS&amp;BFS ㅇ/BFS_기초문제.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/DFS&amp;BFS ㅇ/DFS_기본.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/DFS&amp;BFS ㅇ/DFS_기본.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/DFS&amp;BFS ㅇ/DFS_기초문제.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/DFS&amp;BFS ㅇ/DFS_기초문제.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/DFS&amp;BFS ㅇ/달리기.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/DFS&amp;BFS ㅇ/달리기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/DFS&amp;BFS ㅇ/아기상어2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/DFS&amp;BFS ㅇ/아기상어2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/DP ㅇ/파이프옮기기1_DP.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/DP ㅇ/파이프옮기기1_DP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/구현 ㅇ/배열돌리기.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/구현 ㅇ/배열돌리기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/그리디 ㅇ/영역_구하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/그리디 ㅇ/영역_구하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/다익스트라 ㅇ/최소비용_구하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/다익스트라 ㅇ/최소비용_구하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/자료구조 (강의) ㅇ/ㅇNetworkDelayTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/자료구조 (강의) ㅇ/ㅇNetworkDelayTime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/자료구조 (강의) ㅇ/ㅇ그래프_bfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/자료구조 (강의) ㅇ/ㅇ그래프_bfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/자료구조 (강의) ㅇ/ㅇ그래프_dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/자료구조 (강의) ㅇ/ㅇ그래프_dfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/자료구조 (강의) ㅇ/ㅇ다익스트라.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/자료구조 (강의) ㅇ/ㅇ다익스트라.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/자료구조 (강의) ㅇ/ㅇ리스트_다루기.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/자료구조 (강의) ㅇ/ㅇ리스트_다루기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tip.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/BellmanFord_basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shortest_distance/BellmanFord_basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/FloydWrasahll_basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shortest_distance/FloydWrasahll_basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/dijkstra_basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shortest_distance/dijkstra_basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/dijkstra_prac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shortest_distance/dijkstra_prac.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +67,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/indy_test/final_project/Tayo-BE/Tayo-Backend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java/wanted-pre-onboarding-challenge-be-task-nov&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -53,6 +82,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java\PS_for_CodingTest\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="HD" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -97,176 +129,456 @@
       <workItem from="1693871598408" duration="5587000" />
       <workItem from="1693906738933" duration="6416000" />
       <workItem from="1693958964046" duration="5594000" />
+      <workItem from="1694010033536" duration="630000" />
+      <workItem from="1694047216964" duration="8108000" />
+      <workItem from="1694092135055" duration="2957000" />
+      <workItem from="1694133164050" duration="8945000" />
+      <workItem from="1694178733051" duration="210000" />
+      <workItem from="1694344797702" duration="12473000" />
+      <workItem from="1694439085781" duration="57000" />
+      <workItem from="1694501899586" duration="14062000" />
+      <workItem from="1694658775754" duration="8686000" />
+      <workItem from="1694740831004" duration="9846000" />
+      <workItem from="1694835124184" duration="1147000" />
+      <workItem from="1694847631611" duration="982000" />
+      <workItem from="1694915896133" duration="13656000" />
+      <workItem from="1694999515497" duration="9287000" />
+      <workItem from="1695047130055" duration="415000" />
+      <workItem from="1695083621636" duration="14313000" />
+      <workItem from="1695165188359" duration="13030000" />
+      <workItem from="1695238068620" duration="681000" />
+      <workItem from="1695353736469" duration="11102000" />
+      <workItem from="1695388712845" duration="377000" />
+      <workItem from="1695452441992" duration="1786000" />
+      <workItem from="1695529132064" duration="16343000" />
+      <workItem from="1695555385642" duration="10800000" />
+      <workItem from="1695653423321" duration="17182000" />
+      <workItem from="1695741454720" duration="1999000" />
+      <workItem from="1695796108230" duration="5133000" />
+      <workItem from="1695996403277" duration="17650000" />
+      <workItem from="1696150631972" duration="5975000" />
+      <workItem from="1696167252471" duration="835000" />
+      <workItem from="1696250528637" duration="17588000" />
+      <workItem from="1696429799858" duration="402000" />
+      <workItem from="1696473414038" duration="1000" />
+      <workItem from="1696521114633" duration="14232000" />
+      <workItem from="1696603668885" duration="3453000" />
+      <workItem from="1696820900710" duration="4184000" />
+      <workItem from="1696860165505" duration="14921000" />
+      <workItem from="1696988717787" duration="10111000" />
+      <workItem from="1697449673494" duration="1876000" />
+      <workItem from="1697465537426" duration="1811000" />
+      <workItem from="1697613045070" duration="11958000" />
+      <workItem from="1697638586379" duration="2728000" />
+      <workItem from="1697642026116" duration="800000" />
+      <workItem from="1697723213826" duration="2349000" />
+      <workItem from="1697786341875" duration="4465000" />
+      <workItem from="1697801230401" duration="7679000" />
+      <workItem from="1697860656738" duration="18365000" />
+      <workItem from="1698487340125" duration="3733000" />
+      <workItem from="1700396700556" duration="1030000" />
+      <workItem from="1700401138961" duration="1521000" />
+      <workItem from="1700407152371" duration="15171000" />
+      <workItem from="1702266512998" duration="9852000" />
+      <workItem from="1702282940092" duration="6329000" />
+      <workItem from="1702340083705" duration="8063000" />
+      <workItem from="1702357840387" duration="2706000" />
+      <workItem from="1702380081394" duration="7631000" />
+      <workItem from="1702447790305" duration="17485000" />
+      <workItem from="1702487154825" duration="5503000" />
+      <workItem from="1702532632202" duration="6502000" />
+      <workItem from="1702548176920" duration="8889000" />
+      <workItem from="1702609635602" duration="5856000" />
+      <workItem from="1702618390945" duration="12766000" />
+      <workItem from="1702640841134" duration="6648000" />
+      <workItem from="1702711194913" duration="14377000" />
+      <workItem from="1702729602002" duration="5792000" />
+      <workItem from="1702791220502" duration="15289000" />
+      <workItem from="1702826734029" duration="109000" />
+      <workItem from="1702875110599" duration="16829000" />
+      <workItem from="1702949293792" duration="3430000" />
+      <workItem from="1702958609681" duration="12874000" />
+      <workItem from="1703080259751" duration="3306000" />
+      <workItem from="1703130972947" duration="15634000" />
+      <workItem from="1703164478770" duration="116000" />
+      <workItem from="1703221558010" duration="6743000" />
+      <workItem from="1703235175030" duration="6084000" />
+      <workItem from="1703253584086" duration="808000" />
+      <workItem from="1703312370383" duration="5540000" />
+      <workItem from="1703399795776" duration="3766000" />
+      <workItem from="1703566073299" duration="8829000" />
+      <workItem from="1703575132261" duration="258000" />
+      <workItem from="1703599140375" duration="683000" />
+      <workItem from="1703641768011" duration="10997000" />
+      <workItem from="1703682789578" duration="13347000" />
+      <workItem from="1703732551893" duration="7979000" />
+      <workItem from="1703751962407" duration="1319000" />
+      <workItem from="1703761658453" duration="6709000" />
+      <workItem from="1703828002983" duration="9405000" />
+      <workItem from="1703854244853" duration="2340000" />
+      <workItem from="1703910285823" duration="7622000" />
+      <workItem from="1703994648978" duration="9626000" />
+      <workItem from="1704084832700" duration="9506000" />
+      <workItem from="1704160352051" duration="13837000" />
+      <workItem from="1704191425107" duration="5287000" />
+      <workItem from="1704251425775" duration="2905000" />
+      <workItem from="1704261225297" duration="6285000" />
+      <workItem from="1704335162292" duration="7036000" />
+      <workItem from="1704427390132" duration="8393000" />
+      <workItem from="1704448631614" duration="4096000" />
+      <workItem from="1704455172696" duration="40000" />
+      <workItem from="1704513368029" duration="3216000" />
+      <workItem from="1704622172174" duration="2632000" />
+      <workItem from="1704680930932" duration="7797000" />
+      <workItem from="1704759601999" duration="8890000" />
+      <workItem from="1704847701031" duration="7752000" />
+      <workItem from="1704872545475" duration="1723000" />
+      <workItem from="1704934825036" duration="6928000" />
     </task>
-    <task id="LOCAL-00001" summary="백준 14620 문제 해결">
-      <created>1680581923574</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00032" summary="2023/09/15 코테 공부">
+      <created>1694752536635</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
       <option name="project" value="LOCAL" />
-      <updated>1680581923574</updated>
+      <updated>1694752536635</updated>
     </task>
-    <task id="LOCAL-00002" summary="2023/04/06 코테 공부">
-      <created>1680792222445</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task id="LOCAL-00033" summary="2023/09/17 코테 공부">
+      <created>1694961365624</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1680792222445</updated>
+      <updated>1694961365624</updated>
     </task>
-    <task id="LOCAL-00003" summary="2023/04/07 코테 공부">
-      <created>1680880977977</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+    <task id="LOCAL-00034" summary="2023/09/18 코테 공부">
+      <created>1695047530821</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1680880977977</updated>
+      <updated>1695047530821</updated>
     </task>
-    <task id="LOCAL-00004" summary="2023/04/08 코테 공부">
-      <created>1680949940597</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+    <task id="LOCAL-00035" summary="2023/09/19 코테 공부">
+      <created>1695107234951</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
       <option name="project" value="LOCAL" />
-      <updated>1680949940597</updated>
+      <updated>1695107234951</updated>
     </task>
-    <task id="LOCAL-00005" summary="2023/04/09 코테 공부">
-      <created>1681055500749</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+    <task id="LOCAL-00036" summary="2023/09/20 코테 공부">
+      <created>1695239677795</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
       <option name="project" value="LOCAL" />
-      <updated>1681055500749</updated>
+      <updated>1695239677795</updated>
     </task>
-    <task id="LOCAL-00006" summary="2023/04/10 코테 공부">
-      <created>1681091954969</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+    <task id="LOCAL-00037" summary="2023/09/22 코테 공부">
+      <created>1695389047523</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
       <option name="project" value="LOCAL" />
-      <updated>1681091954970</updated>
+      <updated>1695389047523</updated>
     </task>
-    <task id="LOCAL-00007" summary="2023/04/11 코테 공부">
-      <created>1681176346810</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+    <task id="LOCAL-00038" summary="2023/09/24 코테 공부">
+      <created>1695558696951</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
       <option name="project" value="LOCAL" />
-      <updated>1681176346810</updated>
+      <updated>1695558696952</updated>
     </task>
-    <task id="LOCAL-00008" summary="2023/04/12 코테 공부">
-      <created>1681310503390</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+    <task id="LOCAL-00039" summary="2023/09/25 코테 공부">
+      <created>1695653454177</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
       <option name="project" value="LOCAL" />
-      <updated>1681310503390</updated>
+      <updated>1695653454177</updated>
     </task>
-    <task id="LOCAL-00009" summary="2023/04/13 코테 공부">
-      <created>1681382444159</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+    <task id="LOCAL-00040" summary="2023/09/26 코테 공부">
+      <created>1695725991717</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
       <option name="project" value="LOCAL" />
-      <updated>1681382444159</updated>
+      <updated>1695725991717</updated>
     </task>
-    <task id="LOCAL-00010" summary="2023/04/14 코테 공부">
-      <created>1681439374249</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+    <task id="LOCAL-00041" summary="2023/09/27 코테 공부">
+      <created>1695802324045</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
       <option name="project" value="LOCAL" />
-      <updated>1681439374249</updated>
+      <updated>1695802324045</updated>
     </task>
-    <task id="LOCAL-00011" summary="2023/04/15 코테 공부">
-      <created>1681530862255</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+    <task id="LOCAL-00042" summary="2023/09/30 코테 공부">
+      <created>1696075258978</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
       <option name="project" value="LOCAL" />
-      <updated>1681530862255</updated>
+      <updated>1696075258978</updated>
     </task>
-    <task id="LOCAL-00012" summary="2023/07/24 코테 공부">
-      <created>1690215521088</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
+    <task id="LOCAL-00043" summary="2023/10/01 코테 공부">
+      <created>1696168611468</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
       <option name="project" value="LOCAL" />
-      <updated>1690215521088</updated>
+      <updated>1696168611469</updated>
     </task>
-    <task id="LOCAL-00013" summary="2023/07/25 코테 공부">
-      <created>1690302524561</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
+    <task id="LOCAL-00044" summary="2023/10/03 코테 공부">
+      <created>1696345284917</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
       <option name="project" value="LOCAL" />
-      <updated>1690302524561</updated>
+      <updated>1696345284917</updated>
     </task>
-    <task id="LOCAL-00014" summary="2023/08/18 코테 공부">
-      <created>1692364077450</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
+    <task id="LOCAL-00045" summary="2023/10/04 코테 공부">
+      <created>1696430060631</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
       <option name="project" value="LOCAL" />
-      <updated>1692364077450</updated>
+      <updated>1696430060631</updated>
     </task>
-    <task id="LOCAL-00015" summary="2023/08/19 코테 공부">
-      <created>1692456729873</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
+    <task id="LOCAL-00046" summary="2023/10/06 코테 공부">
+      <created>1696603691388</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
       <option name="project" value="LOCAL" />
-      <updated>1692456729874</updated>
+      <updated>1696603691388</updated>
     </task>
-    <task id="LOCAL-00016" summary="2023/08/20 코테 공부">
-      <created>1692536293310</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
+    <task id="LOCAL-00047" summary="2023/10/10 코테 공부">
+      <created>1696931905522</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
       <option name="project" value="LOCAL" />
-      <updated>1692536293310</updated>
+      <updated>1696931905522</updated>
     </task>
-    <task id="LOCAL-00017" summary="2023/08/21 코테 공부">
-      <created>1692629835658</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
+    <task id="LOCAL-00048" summary="2023/10/16 코테 공부">
+      <created>1697466650053</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
       <option name="project" value="LOCAL" />
-      <updated>1692629835658</updated>
+      <updated>1697466650053</updated>
     </task>
-    <task id="LOCAL-00018" summary="2023/08/22 코테 공부">
-      <created>1692713743933</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
+    <task id="LOCAL-00049" summary="2023/10/18 코테 공부">
+      <created>1697640379356</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
       <option name="project" value="LOCAL" />
-      <updated>1692713743934</updated>
+      <updated>1697640379356</updated>
     </task>
-    <task id="LOCAL-00019" summary="2023/08/23 코테 공부">
-      <created>1692798508138</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
+    <task id="LOCAL-00050" summary="2023/10/20 코테 공부">
+      <created>1697810265325</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
       <option name="project" value="LOCAL" />
-      <updated>1692798508138</updated>
+      <updated>1697810265329</updated>
     </task>
-    <task id="LOCAL-00020" summary="2023/08/24 코테 공부">
-      <created>1692876525951</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
+    <task id="LOCAL-00051" summary="2023/12/11 코테 공부 (다시 가보자!)">
+      <created>1702301109131</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
       <option name="project" value="LOCAL" />
-      <updated>1692876525951</updated>
+      <updated>1702301109132</updated>
     </task>
-    <task id="LOCAL-00021" summary="2023/08/27 코테 공부">
-      <created>1693147054926</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
+    <task id="LOCAL-00052" summary="2023/12/12 코테 공부">
+      <created>1702387928663</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
       <option name="project" value="LOCAL" />
-      <updated>1693147054926</updated>
+      <updated>1702387928664</updated>
     </task>
-    <task id="LOCAL-00022" summary="2023/09/02 코테 공부">
-      <created>1693642869585</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
+    <task id="LOCAL-00053" summary="2023/12/13 코테 공부">
+      <created>1702487423448</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
       <option name="project" value="LOCAL" />
-      <updated>1693642869586</updated>
+      <updated>1702487423448</updated>
     </task>
-    <task id="LOCAL-00023" summary="2023/09/04 코테 공부">
-      <created>1693841176379</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
+    <task id="LOCAL-00054" summary="2023/12/14 코테 공부">
+      <created>1702563132386</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
       <option name="project" value="LOCAL" />
-      <updated>1693841176379</updated>
+      <updated>1702563132388</updated>
     </task>
-    <task id="LOCAL-00024" summary="2023/09/05 코테 공부">
-      <created>1693916489677</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
+    <task id="LOCAL-00055" summary="2023/12/15 코테 공부">
+      <created>1702649731457</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
       <option name="project" value="LOCAL" />
-      <updated>1693916489677</updated>
+      <updated>1702649731458</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00056" summary="2023/12/16 코테 공부">
+      <created>1702741716910</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1702741716911</updated>
+    </task>
+    <task id="LOCAL-00057" summary="2023/12/17 코테 공부">
+      <created>1702826801404</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1702826801405</updated>
+    </task>
+    <task id="LOCAL-00058" summary="2023/12/18 코테 공부">
+      <created>1702894741360</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1702894741360</updated>
+    </task>
+    <task id="LOCAL-00059" summary="2023/12/19 코테 공부">
+      <created>1702973307405</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1702973307405</updated>
+    </task>
+    <task id="LOCAL-00060" summary="2023/12/20 코테 공부">
+      <created>1703083466470</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1703083466471</updated>
+    </task>
+    <task id="LOCAL-00061" summary="2023/12/21 코테 공부">
+      <created>1703164546488</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1703164546489</updated>
+    </task>
+    <task id="LOCAL-00062" summary="2023/12/22 코테 공부">
+      <created>1703255842353</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1703255842354</updated>
+    </task>
+    <task id="LOCAL-00063" summary="2023/12/24 코테 공부">
+      <created>1703408580661</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1703408580662</updated>
+    </task>
+    <task id="LOCAL-00064" summary="2023/12/26 코테 공부">
+      <created>1703599814299</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1703599814300</updated>
+    </task>
+    <task id="LOCAL-00065" summary="2023/12/27 코테 공부">
+      <created>1703686773917</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1703686773918</updated>
+    </task>
+    <task id="LOCAL-00066" summary="2023/12/27 코테 공부 (추가)">
+      <created>1703721496941</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1703721496941</updated>
+    </task>
+    <task id="LOCAL-00067" summary="2023/12/28 코테 공부">
+      <created>1703770034578</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1703770034578</updated>
+    </task>
+    <task id="LOCAL-00068" summary="2023/12/29 코테 공부">
+      <created>1703857246987</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1703857246988</updated>
+    </task>
+    <task id="LOCAL-00069" summary="2023/12/30 코테 공부">
+      <created>1703994917356</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1703994917357</updated>
+    </task>
+    <task id="LOCAL-00070" summary="2023/12/31 코테 공부">
+      <created>1704084938926</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1704084938926</updated>
+    </task>
+    <task id="LOCAL-00071" summary="2024/01/01 코테 공부">
+      <created>1704113676715</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1704113676716</updated>
+    </task>
+    <task id="LOCAL-00072" summary="2024/01/02 코테 공부">
+      <created>1704204895561</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1704204895561</updated>
+    </task>
+    <task id="LOCAL-00073" summary="2024/01/03 코테 공부">
+      <created>1704271245942</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1704271245943</updated>
+    </task>
+    <task id="LOCAL-00074" summary="2024/01/04 코테 공부">
+      <created>1704366484381</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1704366484381</updated>
+    </task>
+    <task id="LOCAL-00075" summary="2024/01/05 코테 공부">
+      <created>1704454743502</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1704454743503</updated>
+    </task>
+    <task id="LOCAL-00076" summary="2024/01/06 코테 공부">
+      <created>1704519144172</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1704519144172</updated>
+    </task>
+    <task id="LOCAL-00077" summary="2024/01/07 코테 공부">
+      <created>1704624630321</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1704624630321</updated>
+    </task>
+    <task id="LOCAL-00078" summary="2024/01/08 코테 공부">
+      <created>1704688272702</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1704688272702</updated>
+    </task>
+    <task id="LOCAL-00079" summary="2024/01/09 코테 공부">
+      <created>1704768620170</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1704768620170</updated>
+    </task>
+    <task id="LOCAL-00080" summary="2024/01/10 코테 공부">
+      <created>1704874270544</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1704874270544</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,31 +596,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 14620 문제 해결" />
-    <MESSAGE value="2023/04/06 코테 공부" />
-    <MESSAGE value="2023/04/07 코테 공부" />
-    <MESSAGE value="2023/04/08 코테 공부" />
-    <MESSAGE value="2023/04/09 코테 공부" />
-    <MESSAGE value="2023/04/10 코테 공부" />
-    <MESSAGE value="2023/04/11 코테 공부" />
-    <MESSAGE value="2023/04/12 코테 공부" />
-    <MESSAGE value="2023/04/13 코테 공부" />
-    <MESSAGE value="2023/04/14 코테 공부" />
-    <MESSAGE value="2023/04/15 코테 공부" />
-    <MESSAGE value="2023/07/24 코테 공부" />
-    <MESSAGE value="2023/07/25 코테 공부" />
-    <MESSAGE value="2023/08/18 코테 공부" />
-    <MESSAGE value="2023/08/19 코테 공부" />
-    <MESSAGE value="2023/08/20 코테 공부" />
-    <MESSAGE value="2023/08/21 코테 공부" />
-    <MESSAGE value="2023/08/22 코테 공부" />
-    <MESSAGE value="2023/08/23 코테 공부" />
-    <MESSAGE value="2023/08/24 코테 공부" />
-    <MESSAGE value="2023/08/27 코테 공부" />
-    <MESSAGE value="2023/09/02 코테 공부" />
-    <MESSAGE value="2023/09/04 코테 공부" />
-    <MESSAGE value="2023/09/05 코테 공부" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023/09/05 코테 공부" />
+    <MESSAGE value="2023/12/16 코테 공부" />
+    <MESSAGE value="2023/12/17 코테 공부" />
+    <MESSAGE value="2023/12/18 코테 공부" />
+    <MESSAGE value="2023/12/19 코테 공부" />
+    <MESSAGE value="2023/12/20 코테 공부" />
+    <MESSAGE value="2023/12/21 코테 공부" />
+    <MESSAGE value="2023/12/22 코테 공부" />
+    <MESSAGE value="2023/12/24 코테 공부" />
+    <MESSAGE value="2023/12/26 코테 공부" />
+    <MESSAGE value="2023/12/27 코테 공부" />
+    <MESSAGE value="2023/12/27 코테 공부 (추가)" />
+    <MESSAGE value="2023/12/28 코테 공부" />
+    <MESSAGE value="2023/12/29 코테 공부" />
+    <MESSAGE value="2023/12/30 코테 공부" />
+    <MESSAGE value="2023/12/31 코테 공부" />
+    <MESSAGE value="2024/01/01 코테 공부" />
+    <MESSAGE value="2024/01/02 코테 공부" />
+    <MESSAGE value="2024/01/03 코테 공부" />
+    <MESSAGE value="2024/01/04 코테 공부" />
+    <MESSAGE value="2024/01/05 코테 공부" />
+    <MESSAGE value="2024/01/06 코테 공부" />
+    <MESSAGE value="2024/01/07 코테 공부" />
+    <MESSAGE value="2024/01/08 코테 공부" />
+    <MESSAGE value="2024/01/09 코테 공부" />
+    <MESSAGE value="2024/01/10 코테 공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024/01/10 코테 공부" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -338,7 +651,101 @@
           <line>70</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/etc/BOJ2310.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/etc/BOJ10836.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BFS_DFS/BOJ_14502.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BFS_DFS/BOJ_4179.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/samsung/BOJ_14501.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/samsung/BOJ_14503.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/samsung/BOJ_3190.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/samsung/BOJ_20058.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/samsung/BOJ_23288.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/samsung/BOJ_20061.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/samsung/BOJ_19236.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/samsung/BOJ_19237.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/samsung/BOJ_19238.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP/BOJ_1106.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP/BOJ_5557.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP/BOJ_2624.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP/BOJ_2073.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="A[r]" language="JAVA" />
+        <watch expression="A[r]" language="JAVA" />
+        <watch expression="arr[5]" />
+        <watch expression="((int[][])BOJ_17140.map)[0]" custom="int[][]" />
+        <watch expression="bg.get(1).blocks" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

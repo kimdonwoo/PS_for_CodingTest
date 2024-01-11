@@ -1,21 +1,21 @@
 import sys
 input = sys.stdin.readline
 
-# 전부다 0 이거나 false 인 graph 생성
+# 전부다 0 이거나 false 인 shortest_distance 생성
 '''
     [[False,False,False,False],
      [False,False,False,False],
      [False,False,False,False]]
     
     이렇게 되자나 그럼 graph1[0][0] ~ graph1[2][3]
-    즉, n*m 일때, graph[n][m]인 거!!
+    즉, n*m 일때, shortest_distance[n][m]인 거!!
 
     [[False]*m for _ in range(n)]
 '''
 graph1= [[False]*4 for _ in range(3)]
 print(graph1)
 
-# dfs나 bfs 관련문제에서 1 2 3 4 이런식일때, graph list로 만들때
+# dfs나 bfs 관련문제에서 1 2 3 4 이런식일때, shortest_distance list로 만들때
 ground = [list(map(int,input().split())) for _ in range(3)]
 print(ground)
 
