@@ -445,3 +445,15 @@
   B -> D -> E
     - 이런 그래프 문제 많은듯
         - DP 최장수열 문제, DFS 문제, 플로이드와샬 등...
+
+- 특정 배열에 값들을 넣을 때 , 중복없이 넣는 방법
+    if( ArrayList.indexOf(value) < 0 )
+        Arraylist.add(value);
+
+- HashMap에서 put한 상태로 순서 뽑고 싶으면 LinkedHashMap을 사용해라
+    - HashMap에서 keySet() 뽑은 다음에 다시 key로 get해야하는 경우에는
+    - entrySet()사용한는게 더 유리 그냥 key만 뽑는거면 keySet 아니면 entrySet써라
+
+- BFS문제에서 visit을 분리해야하는 경우도 있다!
+    - 특정 조건을 만족한 상태에서의 visit과 만족안할때의 visit이 존재할수도 있음
+
