@@ -1,3 +1,5 @@
+package shortest_distance;
+
 import java.io.*;
 import java.util.StringTokenizer;
 
