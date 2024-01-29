@@ -1,4 +1,4 @@
-package 그리디;
+package Greedy;
 
 import java.util.Scanner;
 

@@ -1,9 +1,5 @@
 package prac_zone;
 
-import 그리디.temp;
-
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.PriorityQueue;
 
 public class Free {

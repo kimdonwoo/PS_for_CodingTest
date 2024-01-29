@@ -1,6 +1,5 @@
-package 그리디;
+package Greedy;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class 백준_11047 {

@@ -6,7 +6,7 @@
 
 
 알고리즘 공부 순서
-1. 그리디 (50문제)
+1. Greedy (50문제)
 2. BFS_DFS, BFS/DFS (50문제)
 3. 기본 DP (50문제)
 4. implement
