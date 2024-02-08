@@ -1,15 +1,19 @@
 package prac_zone;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class binarySearch {
     public static void main(String[] args) throws Exception {
 
         //             0  1  2  3  4  5  6  7  8  9  10
         int[] nums = {10,20,30,40,40,40,50,60,70,80,100};
-        int key = 45;
+        int key = 85;
 
 
         // TODO : 1. 일치하는 값의 index 찾기
         System.out.println(binarySearch(nums,key));
+        System.out.println(binarySearchByLibrary(nums,key));
 
         // TODO : 2. FFFTTT - lowerBound
         System.out.println(binarySearchForLowerBound(nums,key));
@@ -46,7 +50,18 @@ public class binarySearch {
         return -1;
     }
 
+    static int binarySearchByLibrary(int[] nums, int key){
+        return Arrays.binarySearch(nums,key);
+    }
+
+    /*
+        right = mid는 오른쪽 경계를 왼쪽으로 미는 행위
+        left = mid는 왼쪽 경계를 오른쪽으로 미는 행위
+     */
+
+
     // TODO : 2. lowerBound
+    //      FFFTTT인 상황에서
     //      ... F F F (T) T ...
     static int binarySearchForLowerBound(int[] nums, int key){
         int left = -1;
