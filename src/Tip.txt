@@ -547,4 +547,6 @@
     - dist[next[0]] = Math.min(dist[now[0]],next[1])
     - visit : 방문 배열
 
-
+- 우선순위큐에서 람다식 안쓰고 implements Comparable<Object> 쓰는 방법
+    - publie int compareTo(Object o)를 Override 하면된다
+    - this.time - o.time이 오름차순 !
