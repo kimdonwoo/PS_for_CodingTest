@@ -550,3 +550,8 @@
 - 우선순위큐에서 람다식 안쓰고 implements Comparable<Object> 쓰는 방법
     - publie int compareTo(Object o)를 Override 하면된다
     - this.time - o.time이 오름차순 !
+
+- DFS/BFS 문제에서 visit 처리시
+    - 만약 여러가지 경우에 따라 visit을 나눠야하는 경우 visit을 3차원 배열로 두기
+    - [더 좋은 방법] 각 경우를 cost로 치환할 수 있는 경우, int check를 둔다
+        - 그리고 현재 상황에 check보다 cost가 큰 경우에만 q.add 처리 해주기로 문제해결 가능!!
