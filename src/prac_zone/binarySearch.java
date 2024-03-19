@@ -7,8 +7,8 @@ public class binarySearch {
     public static void main(String[] args) throws Exception {
 
         //             0  1  2  3  4  5  6  7  8  9  10
-        int[] nums = {10,20,30,40,40,40,50,60,70,80,100};
-        int key = 85;
+        int[] nums = {10,20,30,40,50,50,50,60,70,80,100};
+        int key = 50;
 
 
         // TODO : 1. 일치하는 값의 index 찾기
@@ -16,16 +16,16 @@ public class binarySearch {
         System.out.println(binarySearchByLibrary(nums,key));
 
         // TODO : 2. FFFTTT - lowerBound
-        System.out.println(binarySearchForLowerBound(nums,key));
+        //System.out.println(binarySearchForLowerBound(nums,key));
 
         // TODO : 3. FFFTTT - UpperBound
-        System.out.println(binarySearchForUpperBound(nums,key));
+        //System.out.println(binarySearchForUpperBound(nums,key));
 
         // TODO : 4. TTTFFF - lowerBound
-        System.out.println(reverseBinarySearchForLowerBound(nums,key));
+        //System.out.println(reverseBinarySearchForLowerBound(nums,key));
 
         // TODO : 5. TTTFFF - UpperBound
-        System.out.println(reverseBinarySearchForUpperBound(nums,key));
+        //System.out.println(reverseBinarySearchForUpperBound(nums,key));
 
 
 
