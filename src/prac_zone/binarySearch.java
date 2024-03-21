@@ -1,13 +1,15 @@
 package prac_zone;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 public class binarySearch {
     public static void main(String[] args) throws Exception {
 
         //             0  1  2  3  4  5  6  7  8  9  10
-        int[] nums = {10,20,30,40,50,50,50,60,70,80,100};
+        //int[] nums = {10,20,30,40,50,50,50,60,70,80,100};
+        int[] nums = {1,3,5,3,5,4,3,7,5,9};
+
         int key = 50;
 
 
@@ -27,8 +29,41 @@ public class binarySearch {
         // TODO : 5. TTTFFF - UpperBound
         System.out.println(reverseBinarySearchForUpperBound(nums,key));
 
+        // TODO : 최장 증가 수열 구해보자
+        ArrayList<Integer> arr = new ArrayList<>();
+        for(int i = 0 ; i < nums.length; i++){
+            if (arr.isEmpty() || arr.get(arr.size()-1) < nums[i]) arr.add(nums[i]);
+            else{
+                int idx = LISByArrayList(arr,nums[i]);
+                arr.set(idx,nums[i]);
+            }
+        }
 
+        System.out.println();
+        System.out.println("최장 증가 수열 :");
+        for(int a : arr){
+            System.out.print(a+" ");
+        }
 
+        // TODO : 최장 감소 수열 구해보자
+        ArrayList<Integer> arr2 = new ArrayList<>();
+        for(int i = nums.length-1 ; i >= 0; i--){
+            System.out.println();
+            for(int a : arr2){
+                System.out.print(a+" ");
+            }
+            if (arr2.isEmpty() || arr2.get(arr2.size()-1) > nums[i]) arr2.add(nums[i]);
+            else{
+                int idx = LDSByArrayList(arr2,nums[i]);
+                arr2.set(idx,nums[i]);
+            }
+        }
+
+        System.out.println();
+        System.out.println("최장 감소 수열 :");
+        for(int a : arr2){
+            System.out.print(a+" ");
+        }
 
     }
 
@@ -78,7 +113,42 @@ public class binarySearch {
                 left = mid;
             }
         }
+        return right;
+    }
 
+    static int LISByArrayList(ArrayList<Integer> nums, int key){
+        int left = -1;
+        int right = nums.size();
+
+        while(left + 1 < right){
+            int mid = (left+right)/2;
+
+            if(nums.get(mid) >= key){
+                // 조건 만족하는 경우 - 현재까지 찾은 값중 mid가 최선의 답
+                right = mid;
+            }else{
+                // 조건 만족안하는 경우 - 해당 mid 값은 더이상 필요 x
+                left = mid;
+            }
+        }
+        return right;
+    }
+
+    static int LDSByArrayList(ArrayList<Integer> nums, int key){
+        int left = -1;
+        int right = nums.size();
+
+        while(left + 1 < right){
+            int mid = (left+right)/2;
+
+            if(nums.get(mid) <= key){
+                // 조건 만족하는 경우 - 현재까지 찾은 값중 mid가 최선의 답
+                right = mid;
+            }else{
+                // 조건 만족안하는 경우 - 해당 mid 값은 더이상 필요 x
+                left = mid;
+            }
+        }
         return right;
     }
 

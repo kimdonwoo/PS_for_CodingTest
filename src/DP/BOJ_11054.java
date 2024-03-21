@@ -36,7 +36,7 @@ public class BOJ_11054 {
                     // 그런게 아니면 이분탐색
                     // dp에서 이분탐색으로 nums[i] 값보다 크거나 같은 값중 최솟값 찾기
                     // FFFTTT
-                    int idx = binarySearch(-1, dp.size(), nums[i]);
+                    int idx = binarySearch(-1, dp.size(), nums[i],dp);
                     dp.set(idx,nums[i]);
                 }
             }
@@ -48,17 +48,10 @@ public class BOJ_11054 {
                 }else{
                     // dp에서 이분탐색으로 nums[i] 값보다 작거나 같은 값중 최댓값 찾기
                     // FFFTTT
-                    int idx = binarySearch2(-1, dp2.size(), nums[i]);
+                    int idx = binarySearch2(-1, dp2.size(), nums[i],dp2);
                     dp2.set(idx,nums[i]);
                 }
             }
-
-            System.out.println("======"+goal+"=====");
-            for(int s : dp) System.out.print(s+" ");
-            System.out.print(" / ");
-            for(int s : dp2) System.out.print(s+" ");
-            System.out.println();
-            System.out.println("======");
 
 
             if(res < dp.size()+dp2.size()-1){
@@ -71,12 +64,12 @@ public class BOJ_11054 {
 
     }
 
-    static int binarySearch(int left, int right, int key) {
+    static int binarySearch(int left, int right, int key,ArrayList<Integer> dp) {
 
         while(left+1 < right) {
             int mid = (left+right)/2;
 
-            if(nums[mid] >= key) {
+            if(dp.get(mid) >= key) {
                 // FFFTTT 조건 만족해서
                 // mid가 최선의 답임
                 right = mid;
@@ -87,12 +80,12 @@ public class BOJ_11054 {
         return right;
     }
 
-    static int binarySearch2(int left, int right, int key) {
+    static int binarySearch2(int left, int right, int key,ArrayList<Integer> dp) {
 
         while(left+1 < right) {
             int mid = (left+right)/2;
 
-            if(nums[mid] <= key) {
+            if(dp.get(mid) <= key) {
                 // 만약 key보다 크면 값을 줄여야함
                 right = mid;
             }else {

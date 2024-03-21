@@ -31,18 +31,24 @@ public class BOJ_2110 {
             long mid = (low+high)/2;
 
             long now = house[0]+mid;
-            int temp = 1;
+            int cnt = 1;
+
             for(int i = 1 ; i < N ; i++){
+                // 공유기 설치
                 if(house[i] >= now){
                     now = house[i]+mid;
-                    temp++;
+                    cnt++;
                 }
-                if(C < temp){
+
+                // 더 많은 공유기가 필요
+                // 즉 현재 mid거리로 필요한 cnt가 넘 많음
+                // -> mid를 늘려야한다 -> left++
+                if(C < cnt){
                     break;
                 }
             }
 
-            if(temp < C){
+            if(cnt < C){
                 high = mid-1;
             }else{
                 low = mid+1;

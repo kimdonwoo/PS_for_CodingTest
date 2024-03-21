@@ -25,14 +25,17 @@ public class BOJ_13397 {
             right = Math.max(arr[i],right);
         }
 
-        int left= 0;
+        int left= -1;
+        right++;
 
-        while(left<right){
+        while(left+1 < right){
             int mid = (left+right)/2;
+
             if(solve(mid)<=m){
+                // 성공
                 right=mid;
             }else{
-                left=mid+1;
+                left=mid;
             }
         }
 
