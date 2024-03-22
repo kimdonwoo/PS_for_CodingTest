@@ -2,7 +2,10 @@ package prac_zone;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+/*
+    Lower Bound랑 Upper Bound 문제는 마스터해라
 
+ */
 public class binarySearch {
     public static void main(String[] args) throws Exception {
 
@@ -98,6 +101,8 @@ public class binarySearch {
     // TODO : 2. lowerBound
     //      FFFTTT인 상황에서
     //      ... F F F (T) T ...
+    //      그니깐 FFFTTT인 상황이면 (어떤상황의 최솟값을 구하는 문제)
+    //      조건이 맞으면 right을 감소해서 마지막 right을 구해야 함
     static int binarySearchForLowerBound(int[] nums, int key){
         int left = -1;
         int right = nums.length;
@@ -113,6 +118,27 @@ public class binarySearch {
                 left = mid;
             }
         }
+        return right;
+    }
+
+    // TODO : 3. UpperBound
+    //      특정 조건보다 큰 상황
+    static int binarySearchForUpperBound(int[] nums, int key){
+        int left = -1;
+        int right = nums.length;
+
+        while(left +1 < right){
+            int mid = (left+right)/2;
+
+            if(nums[mid] > key){
+                // 조건 만족하는 경우 - 현재까지 찾은 값중 mid가 최선의 답
+                right = mid;
+            }else{
+                // 조건 만족안하는 경우 - 해당 mid 값은 더이상 필요 x
+                left = mid;
+            }
+        }
+
         return right;
     }
 
@@ -152,27 +178,11 @@ public class binarySearch {
         return right;
     }
 
-    // TODO : 3. UpperBound
-    static int binarySearchForUpperBound(int[] nums, int key){
-        int left = -1;
-        int right = nums.length;
-
-        while(left +1 < right){
-            int mid = (left+right)/2;
-
-            if(nums[mid] > key){
-                // 조건 만족하는 경우 - 현재까지 찾은 값중 mid가 최선의 답
-                right = mid;
-            }else{
-                // 조건 만족안하는 경우 - 해당 mid 값은 더이상 필요 x
-                left = mid;
-            }
-        }
-
-        return right;
-    }
 
     // TODO : 4. TTTFFF - LowerBound
+    //      그니깐 TTTFFF인 상황이면 (어떤상황의 최댓값을 구하는 문제)
+    //      조건이 맞으면 left를 증가해서 마지막 left를 구해야 함
+
     static int reverseBinarySearchForLowerBound(int[] nums, int key){
         int left = -1;
         int right = nums.length;

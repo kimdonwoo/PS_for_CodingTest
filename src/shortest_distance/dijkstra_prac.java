@@ -81,7 +81,7 @@ public class dijkstra_prac {
         // 우선순위큐 넣고 출발위치랑 dist넣기
         // 우선순위는 항상 코스트 작은걸로
         PriorityQueue<int[]> pq = new PriorityQueue<>((o1,o2) ->{
-            return o2[1] - o1[1];
+            return o1[1] - o2[1];
         });
         pq.offer(new int[] {start,dist[start]});
 

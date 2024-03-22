@@ -12,6 +12,7 @@ public class BOJ_2225 {
         int n = scan.nextInt();
         int k = scan.nextInt();
 
+        // dp[n][k] = 정수 k개로 n를 만드는 경우의 수
         long dp[][] = new long[n + 1][k + 1];
         for(int i = 0; i < n + 1; i++) {
             dp[i][1] = 1; //정수 1개를 더해서 i를 만드는 경우의 수는 하나밖에 없다.

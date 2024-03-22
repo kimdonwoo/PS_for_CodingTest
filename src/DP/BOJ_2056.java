@@ -27,6 +27,7 @@ public class BOJ_2056 {
             for(int j = 0 ; j < M ; j++){
                 endTime = Math.max(endTime,dp[Integer.parseInt(st.nextToken())]);
             }
+            // dp[i]는 i번째일이 가장빠르게 끝나는 시간
             dp[i] = endTime+time;
             res = Math.max(res,dp[i]);
         }

@@ -17,6 +17,7 @@ public class BOJ_2631 {
         Arrays.fill(dp,1);
 
         int ans = 0;
+        // 3 7 5 2 6 1 4
         for(int i=1;i<N;i++){
             for(int j=0;j<i;j++){
                 if(input[i]>input[j]){

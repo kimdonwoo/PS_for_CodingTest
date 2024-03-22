@@ -46,3 +46,7 @@ public class BOJ_17609 {
         System.out.print(answer);
     }
 }
+
+/*
+    투 포인터로 left right delete
+ */
