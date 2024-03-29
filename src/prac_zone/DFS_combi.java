@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
     DFS로 조합연습하기!!
 
     1. 기본 조합 : 배열 or ArrayList에서 N개 중에 M개 고르기
-        DFS의 매개변수로 idx랑 count가 필수
+        DFS(idx, cnt) 형태
 
     - 값들의 의미
         goal : 총 선택 갯수
@@ -26,6 +26,17 @@ import java.util.StringTokenizer;
         - DFS로 돌면서 select[count]에 값 저장
         - count == goal이 되는 시점에 문제에 맞는 추가적인 로직 적용하기
 
+    2. map의 모든 좌표에서 시작으로 거리 4까지 있는 모든 값들의 합 구하기?
+        - 이런것도 조합임
+
+    3. 선택된 여러명이 각자 4방향으로 움직이는 상황
+        - 선택하는 숫자가 작으면 그냥 반복문으로 돌리면 됨
+        - 하지만 많으면 combi로 선택해야할 듯?
+
+    응용 : 1의 상황처럼 N명의 후보중에 M 명을 선택한다
+        그리고 선택한 M명이 각자 독립적으로 움직인다.
+        이때 3번을 써야함
+
  */
 
 
@@ -34,7 +45,11 @@ public class DFS_combi {
     //static int[] arr = {1,2,3,4,5};
     // 5개중에 2개 고르는 거 연습해보자
     static int[][] map = {
-            {0,1,0,1,0},{0,0,1,0,0},{1,0,0,1,0},{0,0,0,0,0},{0,0,0,0,0}
+            {0,1,0,1,0},
+            {0,0,1,0,0},
+            {1,0,0,1,0},
+            {0,0,0,0,0},
+            {0,0,0,0,0}
     };
     static ArrayList<int[]> cand = new ArrayList<>();
     static int[][] select;
