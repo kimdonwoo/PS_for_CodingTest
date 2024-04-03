@@ -712,6 +712,17 @@
         - 우선순위큐에 영역 in일때 out일때 넣어서 in할때마다 answer 비교
     - 문자열 뒤집기 + 그리디 : 새로들어온 문자가 기존 문자의 마지막보다 크면 앞에다 붙이기
         - 즉, 직접 문자를 계속 뒤집을 필요없이 새로운 문자를 앞에다 붙일지 뒤에 붙일지 결정하면 됨
+    - 좌표 map에서 in/out 범위 문제
+        - 우선순위큐에 in,out 변수가진 객체넣고 정렬후, 차근차근 계산
+    - O(N) or O(NlogN) 으로만 해결해야할 때, (전체 상황)-(아닌 상황) 으로 풀이하는 아이디어!
+
+- 그리디 실수 모음집 : 그리디는 놓치는 부분이 치명적일때가 많다!!
+    - 내가 구매한 고기보다 저렴한 고기는 덤으로 받을 수 있다
+        = 최댓값만 구하는 게 아닌, 최댓값이 중복으로 여러 개 일수 있따는 것을 고려해라
+    - 최댓값으로 여러 개 사는 것보다 그것보다 더 비싼 것을 더 작게 사는게 이득일 수 있다
+    -
+
+
 
 - 좌표 문제
     - 좌표 관련 문제는 좌표를 배열로 어떻게 표시하는지가 중요하다
@@ -754,3 +765,17 @@
     - sb.reverse();
     - sb.append("Dd");
     등등...
+
+ - 만약 나온 상황이 1 1 1 2 2 3 3 3 이렇게 중복이 발생하는 상황에서 현재 값보다 작은 경우까지만 계산해야할 때
+    - 이런 식으로 이전idx 따로 두고 이전idx 기준으로만 값 계산하기
+    int ball_idx = 0;
+    int sum = 0;
+    for(int i = 0; i < n; i++) {
+        Ball current = balls[i];
+        while(balls[ball_idx].size < current.size) {
+            sum += balls[ball_idx].size;
+            colors[balls[ball_idx].color] += balls[ball_idx].size;
+            ball_idx++;
+        }
+        result[current.idx] = sum - colors[current.color];
+    }
