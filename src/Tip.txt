@@ -868,9 +868,29 @@
         - visit 처리할때 답이 나올 수 있는게 한정적인 상황(4자리숫자 이하값) boolean visit[10000]으로 두기
     4. 트리에서 DP 적용하기
         - 트리의 각 노드를 root로 가진 서브트리에서의 결과를 dp에 저장하고, parent 서브트리에서 사용하는 방식
+    5. 중위연산자 -> 후위연산자 만들기
+        - 값들어오면 바로 sb.append, 괄호(는 push, 괄호)는 (나올때까지 sb.append, stack.peek에 연산자가 우선순위가 더 높으면 sb.append,
+        - 즉, 스택에 넣고 우선순위에 따라 순서를 정하는 아이디어
+    6. 투포인터의 left,right를 서로 다른 배열에 적용하기
+        - 분리된 배열에 있는 숫자들의 합으로 goal을 이루는 갯수찾는 문제에서 유용!
 
 - 그래프나 트리 탐색할 때는 항상 중복을 고려해라
     - 탐색 과정을 따라갔을 때, 중복 상황이 생기는지 무조건 확인해라!!!
     - 이걸 visit,HashMap 또는 DP등으로 메모라이제이션 중요!!
+
+- 배열에서 중복값 갯수 찾기
+    int leftTempCnt = 1;
+    while(left+1 < aValue.size()){
+        // 만약 다음값이 같으면 다음 인덱스로 이동
+        if(aValue.get(left).equals(aValue.get(left+1))){
+            left++;
+            leftTempCnt++;
+        }else{
+            break;
+        }
+    }
+
+
+
 
 
